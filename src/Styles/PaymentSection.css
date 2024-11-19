@@ -1,15 +1,16 @@
 .Payment{
-height:410px;
+height:420px;
 color:black;
 background-color:#1d232a;
 padding-top:20px;
 }
+
 .Payment2{
 width:650px;
 height:400px;
 margin-left:170px;
-
 }
+
 .Payment3{
 width:400px;
 height:400px;
@@ -25,6 +26,9 @@ display:flex;
 color: #ccc;
 font-size:33px;
 font-weight:600;
+margin-top:0;
+margin-bottom:0;
+margin:0;
 }
 .Payment_para{
 color:#3abff8;

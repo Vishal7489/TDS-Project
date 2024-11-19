@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import {BrowserRouter as  Router, Routes, Route,useNavigation} from 'react-router-dom';
 import Navbar from "./Component/Navbar.jsx"
 import Header from "./Component/Header.jsx"
 import About from "./Component/About.jsx"
@@ -9,24 +9,28 @@ import DataScience from "./Component/DataScience.jsx"
 import PythonCourse from "./Component/PythonCourse.jsx"
 import FullStackCourse from "./Component/FullStackCourse.jsx"
 import PaymentSection from "./Component/PaymentSection.jsx"
+import LoginSection from "./Component/LoginSection.jsx"
 
 const App = () => {
   return (
-  <>
-  <Navbar/>
-  <Header/>
-  <About/>
-  <Router>
-      <Routes>
-        <Route path="/" element={<Service />} />
-        <Route path="/DataScience" element={<DataScience/>} />
-        <Route path="/PythonCourse" element={<PythonCourse/>} />
-        <Route path="/FullStackCourse" element={<FullStackCourse/>}/>
-        <Route path="/PaymentSection" element={<PaymentSection/>}/>
-      </Routes>
-    </Router>
-  <Footer/>
-  </>
+    <Router>
+    <>
+    <Navbar />
+    <Routes>
+    <Route path="/LoginSection" element={<LoginSection />} /> {/* Login page route */}
+    </Routes>
+    <Header />
+    <About />
+    <Routes>
+    <Route path="/" element={<Service />} />
+    <Route path="/DataScience" element={<DataScience />} />
+    <Route path="/PythonCourse" element={<PythonCourse />} />
+    <Route path="/FullStackCourse" element={<FullStackCourse />} />
+    <Route path="/PaymentSection" element={<PaymentSection />} />
+    </Routes>
+    <Footer />
+    </>
+  </Router>
   )
 }
 

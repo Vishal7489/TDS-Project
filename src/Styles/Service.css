@@ -7,10 +7,7 @@ margin-top: 0;
 padding-top: 0;
 padding:0;
 }
-body, .content-wrapper, .main-container {
-    margin: 0;
-    padding: 0;
-}
+
 .Service10{
 margin-top:0;
 margin-bottom:0;
@@ -19,6 +16,15 @@ margin-bottom:0;
 display:flex;
 position:relative;
 left:45px;
+}
+@media(max-width:700px){
+.Service3{
+  flex-wrap:wrap;
+}
+.Service{
+height:100%;
+width:100%;
+}
 }
 .Service4{
 border:2px solid white;
@@ -104,7 +110,4 @@ left:8px;
 }
 .Service_Upper_Heading{
 text-align:center;
-}
-body {
-    overflow-x: hidden;
 }

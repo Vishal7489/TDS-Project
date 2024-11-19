@@ -3,17 +3,37 @@
  80deg,
 rgb(23, 92, 211),
 rgb(30, 28, 73) 40%,
-rgb(23, 23, 51) 65%,
+rgb(32, 32, 68) 65%,
  rgb(0, 0, 0)
 )
-
 }
+
+
 .Header1{
 height:650px;
 margin-bottom:0;
+position:sticky;
+top:0;
+width:100%;
 }
 .Header1{
 display:flex;
+}
+@media(max-width:700px){
+  .Header1{
+  flex-wrap:wrap;
+  height:1200px;
+  }
+  body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  }
+  .Header{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
 }
 .Header2{
 width:800px;

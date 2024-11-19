@@ -2,6 +2,13 @@ import React from 'react'
 import "../Styles/AboutPython.css"
 
 const AboutPython = () => {
+
+
+
+
+
+
+  
   return (
     <div className="AboutCourse">
     <div>

@@ -11,10 +11,14 @@ height:60px;
 margin-bottom:0;
 }
 .Navbar_Main{
-position:sticky;
-top:0px;
+  position:sticky;
+  top:0;
+  z-index:10;
 }
 
+body{
+overflow-x:hidden;
+}
 
 .Navbar_button{
 display:flex;
@@ -55,4 +59,9 @@ top:7px;
     right:42px;
     top:5px;
     border:none;
+  }
+  @media(max-width:680px){
+    .Navbar{
+    background-color:crimson;
+    }
   }

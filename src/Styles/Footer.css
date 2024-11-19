@@ -6,6 +6,20 @@ margin-bottom:0;
 height:110px;
 }
 
+@media(max-width:700px){
+    .Footer{
+      height:100%;
+      width:100%;
+    }
+    .Footer1{
+    flex-wrap:wrap;
+    }
+    body{
+    height:100%;
+    width:100%;
+    }
+}
+
 .Footer1{
 display:flex;
 position:relative;
@@ -22,14 +36,12 @@ margin-right:11px;
 .Footer3{
 text-align:center;
 }
-body{
- height:100%;
 
-}
 .Footer_Heading{
 margin-top:0;
 font-size:24px;
 font-weight:600px;
+color:white;
 }
 .Footer_img{
 font-size:33px;

@@ -1,12 +1,26 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "../Styles/PythonCourse.css"
 import AboutPython from "./AboutPython.jsx"
-
+import { useNavigate } from 'react-router-dom';
 
 
 
 
 const PythonCourse = () => {
+
+useEffect(() => {
+    // Scroll to the middle of the page when it loads
+    const scrollableDiv = document.documentElement || document.body;
+    scrollableDiv.scrollTop = scrollableDiv.scrollHeight / 2.45; // Scroll to the middle
+  }, []);
+
+  const navigate = useNavigate();
+
+  const handleButton4Click = () => {
+  navigate('/PaymentSection'); // This navigates to the About page
+  };
+
+
   return (
 <div className="Python">
 <div className="Python1">
@@ -20,7 +34,7 @@ const PythonCourse = () => {
 <h2 id="course_price">
 ₹<span id="course_actualprice">9000</span><span> + GST ₹ <span id="course_estimationprice">12000</span></span>
 </h2>
-<button className="course_button">Enroll Now</button>
+<button className="course_button"onClick={handleButton4Click} >Enroll Now</button>
 </div>
   
 <div className="Python5">

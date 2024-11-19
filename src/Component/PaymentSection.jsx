@@ -1,12 +1,20 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "../Styles/PaymentSection.css"
 
 
 const PaymentSection = () => {
-  return (
-    <div className="Payment">
-    
 
+  useEffect(() => {
+    // Scroll to the middle of the page when it loads
+    const scrollableDiv = document.documentElement || document.body;
+    scrollableDiv.scrollTop = scrollableDiv.scrollHeight / 1; // Scroll to the middle
+  }, []);
+
+
+
+return (
+    <div className="Payment">
+  
    <div className="Payment1">
     <div className="Payment2">
     <div>

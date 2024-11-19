@@ -1,6 +1,6 @@
 .About{
 background-color:black;
-height:630px;
+height:620px;
 padding-left:90px;
 padding-top:40px;
 margin-bottom:0;
@@ -39,6 +39,33 @@ background-color:#272626;
 .About2{
 display:flex;
 }
+@media(max-width:700px){
+  .About2{
+    flex-wrap:wrap;
+  }
+  .About4{
+    flex-wrap:wrap;
+  }
+  .About3{
+   flex-wrap:wrap;
+  }
+  .About6{
+    flex-wrap:wrap;
+  }
+  .About10{
+    flex-wrap:wrap;
+  }
+  .About{
+   height:1700vh;
+   width:100vw;
+
+  }
+}
+
+
+
+
+
 .About-image{
   height:40px;
   width:40px;

@@ -33,7 +33,7 @@ const AboutCourse = () => {
 
      <div className="course_curriculam">
      <h1 className="curriculam">Course curriculum</h1>
-     <h2 className="curriculam_Heading">Full Stack Developer</h2>
+     <h2 className="curriculam_Heading">Data Analytics</h2>
      <div>
       <h2 className="curriculam_para1">1     Module 1 Basics of Data Analytics</h2>
       <h2 className="curriculam_para2">2   Module 2 Packages and Libraries</h2>

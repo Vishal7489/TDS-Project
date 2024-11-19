@@ -1,8 +1,25 @@
-import React from 'react'
-import About_FullStack from "./About_FullStack.jsx"
+import React,{useEffect} from 'react'
+import AboutFullStack from "./AboutFullStack.jsx"
+import { useNavigate } from 'react-router-dom';
 
 const FullStackCourse = () => {
-  return (
+
+  useEffect(() => {
+    // Scroll to the middle of the page when it loads
+    const scrollableDiv = document.documentElement || document.body;
+    scrollableDiv.scrollTop = scrollableDiv.scrollHeight / 2.46; // Scroll to the middle
+  }, []);
+
+  const navigate = useNavigate();
+
+  const handleButton4Click = () => {
+  navigate('/PaymentSection'); // This navigates to the About page
+  };
+
+
+
+
+return (
 <div className="Python">
 <div className="Python1">
 <div className="Python2">
@@ -15,7 +32,7 @@ const FullStackCourse = () => {
 <h2 id="course_price">
 ₹<span id="course_actualprice"></span>5500<span> + GST ₹ <span id="course_estimationprice">8000</span></span>
 </h2>
-<button className="course_button">Enroll Now</button>
+<button className="course_button" onClick={handleButton4Click}  >Enroll Now</button>
 </div>
   
 <div className="Python5">
@@ -26,7 +43,7 @@ const FullStackCourse = () => {
 
 
 <div>
-<About_FullStack/>
+<AboutFullStack/>
 </div>
 
 

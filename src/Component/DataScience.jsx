@@ -7,15 +7,14 @@ import { useNavigate } from 'react-router-dom';
 
 const DataScience = () => {
 
-  const navigate = useNavigate();
 
-  const handleButton4Click = () => {
-  navigate('/PaymentSection'); // This navigates to the About page
-  };
+const navigate = useNavigate();
 
+const handleButton4Click = () => {
+navigate('/PaymentSection'); // This navigates to the About page
+};
 
-
- return (
+return (
 <div className="DataScience">
 <div className="Python1">
 <div className="Python2">
@@ -26,7 +25,7 @@ const DataScience = () => {
 <p className="Python4_3">✅ Premium community of Engineers</p>
 <p className="Python4_4">✅ Course Certificate</p>
 <h2 id="course_price">
-₹<span id="course_actualprice">45000</span><span> + GST ₹ <span id="course_estimationprice">60000</span></span>
+₹<span id="course_actualprice">4500</span><span> + GST ₹ <span id="course_estimationprice">6000</span></span>
 </h2>
 <button className="course_button" onClick={handleButton4Click}>Enroll Now</button>
 </div>
@@ -35,8 +34,6 @@ const DataScience = () => {
 <img src="https://analytics-vidhya.vercel.app/images/data_analytics.jpg" alt="random-image" className="python-image"/>
 </div>
 </div>
-
-
 
 <div>
 <AboutCourse/>
