@@ -15,9 +15,9 @@ const Footer= () => {
      </div >
     <div className="Footer1">
     <div  className="Footer2">
-    <a  target="_blank" rel="noopener noreferrer"  >
+  
     <FaSquareInstagram className="Footer_img"/>
-    </a>
+
     </div>
     <div className="Footer2">
     <SiFacebook  className="Footer_img"/>
