@@ -1,0 +1,102 @@
+.About{
+background-color:black;
+height:630px;
+padding-left:90px;
+padding-top:40px;
+margin-bottom:0;
+margin-top:0;
+}
+
+.About1{
+color:#fff;
+font-size:32px;
+}
+.About3{
+border: 2px solid hsl(0, 0%, 40%);
+color:white;
+height:200px;
+width:247px;
+margin:11px;
+border-radius:20px;
+background-color:#272626;
+}
+.About3:hover{
+  transform: scale(1.1); 
+  transition: transform 0.3s;
+}
+.About6:hover{
+  transform: scale(1.1); 
+  transition: transform 0.3s;
+}
+.About10:hover{
+  transform: scale(1.1); 
+  transition: transform 0.3s;
+}
+
+.About3{
+  transition: transform 0.2s ease;
+}
+.About2{
+display:flex;
+}
+.About-image{
+  height:40px;
+  width:40px;
+  border-radius:20px;
+  position:relative;
+  left:20px;
+  top:10px;
+}
+.About4{
+display:flex;
+color:white;
+}
+.About5{
+height:150px;
+width:510px;
+margin:10px;
+border-radius:20px;
+position:relative;
+top:35px;
+}
+.About6{
+border: 2px solid hsl(0, 0%, 40%);
+height:200px;
+width:247px;
+margin-left:26px;
+border-radius:20px;
+background-color:#272626;
+}
+.About10{
+  border: 2px solid hsl(0, 0%, 40%);
+  height:200px;
+  width:247px;
+  margin-left:28px;
+  border-radius:20px;
+  background-color:#272626;
+  position:relative;
+  right:5px;
+  }
+.About7{
+padding-left:17px;
+font-size:18px;
+
+}
+.About_para{
+padding-left:20px;
+position:relative;
+bottom:10px;
+font-size:14px;
+}
+.sign_in{
+    background-color:#06f; 
+    height:43px;
+    width:82px;
+    color:white;
+    border-radius:15px; 
+    font-size:15px;
+    border:none;  
+}
+.About8{
+font-size:17px;
+}

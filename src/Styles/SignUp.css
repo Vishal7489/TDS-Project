@@ -1,0 +1,118 @@
+.SignUp{
+height:540px;  
+width:450px;
+background-color:#fff;
+border-radius:10px;
+position:relative;
+top:43px;
+left:7px;
+}
+.SignUp_Heading{
+font-size:20px;
+font-weight:600;
+color:rgb(49 64 91);
+padding-left:19px;
+padding-top:14px;
+margin-bottom:34px;
+position:relative;
+top:15px;
+}
+.E-mail{
+margin-left:20px;
+font-weight:500;
+font-size:18px;
+color:black;
+position:relative;
+top:10px;
+}
+.Graduation{
+margin-left:20px;
+font-weight:500;
+font-size:18px;
+color:black;
+position:relative;
+bottom:10px;
+}
+.Title{
+margin-left:20px;
+font-weight:500;
+font-size:18px;
+color:black;
+position:relative;
+bottom:20px;
+}
+.Mobile{
+margin-left:20px;
+font-weight:500;
+font-size:18px;
+color:black;
+position:relative;
+bottom:25px;
+}
+
+
+.input1{
+margin-left:20px;
+height:30px;
+font-size:18px;
+background-color:#faf4f4;
+border:none;
+outline:none;
+border-radius:7px;
+}
+.input2{
+    margin-left:20px;
+    height:30px;
+    font-size:18px;
+    background-color:#faf4f4;
+    border:none;
+    outline:none;
+    border-radius:7px;
+    position:relative;
+    bottom:15px;
+    }
+    .input3{
+        margin-left:20px;
+        height:30px;
+        font-size:18px;
+        background-color:#faf4f4;
+        border:none;
+        outline:none;
+        border-radius:7px;
+        position:relative;
+        bottom:20px;
+        }  
+        .input4{
+            margin-left:20px;
+            height:30px;
+            font-size:17px;
+            background-color:#faf4f4;
+            border:none;
+            outline:none;
+            border-radius:7px;
+            position:relative;
+            bottom:30px;
+            }
+
+.submit{
+background-color:rgb(83, 78, 78);
+height:37px;
+width:100px;
+border-radius:5px;
+color:white;
+border:none;
+font-weight:500;
+margin-left:20px;
+position:relative;
+bottom:5px;
+}
+.AccountCreation{
+font-size:14px;
+font-weight:300;
+color:#6e7786;
+margin-left:20px;
+}
+#term{
+border-bottom:1px solid #0f3996;
+color:#0f3996;
+}

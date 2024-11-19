@@ -1,0 +1,46 @@
+.Header{
+  background-image:  linear-gradient(
+ 80deg,
+rgb(23, 92, 211),
+rgb(30, 28, 73) 40%,
+rgb(23, 23, 51) 65%,
+ rgb(0, 0, 0)
+)
+
+}
+.Header1{
+height:650px;
+margin-bottom:0;
+}
+.Header1{
+display:flex;
+}
+.Header2{
+width:800px;
+margin-right:10px;
+}
+.Header3{
+font-size:38px;
+color:#fff;
+padding-left:38px;
+font-weight:700;
+margin-top:120px;
+position:relative;
+top:17px;
+left:10px;
+}
+.Header4{
+color:#fff;
+font-size:19px;
+margin-bottom:10px;
+margin-left:5px;
+font-weight:500;
+}
+body{
+background-color:white;
+}
+.Header5{
+position:relative;
+top:16px;
+left:10px;
+}
