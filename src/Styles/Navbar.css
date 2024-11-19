@@ -10,6 +10,29 @@ background-color:#090821;
 height:60px;
 margin-bottom:0;
 }
+@media(max-width:310px){
+  .Navbar{
+   width:100%;
+  }
+}
+
+@media(max-width:380px){
+ .Navbar_Heading{
+  width:160px;
+ }
+ .Button{
+  margin-left:30%;
+  margin-top:28%;
+ }
+ body {
+  font-size: 14px;
+}
+
+
+}
+
+
+
 .Navbar_Main{
   position:sticky;
   top:0;
@@ -37,8 +60,8 @@ top:7px;
 }
 .Button{
   background-color:#06f; 
-  height:43px;
-  width:82px;
+  height:3rem;
+  width:5rem;
   color:white;
   border-radius:15px; 
   font-size:15px;
@@ -46,12 +69,13 @@ top:7px;
   right:57px;
   top:5px;
   border:none;
+  box-sizing:border-box;
 
 }
 .Button1{
     background-color:#06f; 
-    height:43px;
-    width:82px;
+    height:3rem;
+    width:5rem;
     color:white;
     border-radius:12px; 
     font-size:15px;
@@ -60,8 +84,13 @@ top:7px;
     top:5px;
     border:none;
   }
-  @media(max-width:680px){
-    .Navbar{
-    background-color:crimson;
-    }
-  }
+
+html,body{
+  width:100%;
+  overflow-x:hidden;
+}
+
+
+
+
+

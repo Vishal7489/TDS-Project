@@ -4,9 +4,31 @@ width:450px;
 background-color:#fff;
 border-radius:10px;
 position:relative;
-top:43px;
-left:7px;
+top:60px;
+right:50px;
 }
+@media(max-width:490px){
+ .SignUp{
+ width:330px;
+ margin:0;
+ padding:0;
+ margin-left:100px;
+ }   
+ @media(min-width:1070px){
+   body{
+   width:100%;
+   overflow-x:hidden;
+   }
+}
+
+ }
+@media(min-width:490px){
+.SignUp{
+margin-left:50px;
+}
+}
+
+
 .SignUp_Heading{
 font-size:20px;
 font-weight:600;
