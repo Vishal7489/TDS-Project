@@ -11,11 +11,11 @@ const About = () => {
 
  <div className="About2">
  <div className="About3">
-<img src="https://analytics-vidhya.vercel.app/images/artificialIntelligence.jpg" alt="random-image" className="About-image"/> 
-<h3 className="About7">Harnessing AI for Tailored
+ <img src="https://analytics-vidhya.vercel.app/images/artificialIntelligence.jpg" alt="random-image" className="About-image"/> 
+ <h3 className="About7">Harnessing AI for Tailored<br/>
 Educational Experiences</h3>
 <h5 className="About_para">
-AI-based IDE with real-time
+AI-based IDE with real-time<br/>
 engineered to teach you only<br/>
 what the industry demands.
 </h5>
@@ -23,8 +23,7 @@ what the industry demands.
 
  <div className="About3">
  <img src="https://analytics-vidhya.vercel.app/images/interview.jpg"   alt="random-image" className="About-image"/>
- <h3 className="About7">Ace Your Interview
-Preparation</h3>   
+ <h3 className="About7">Ace Your Interview<br/>Preparation</h3>   
 <h5 className="About_para" >An updated curriculum<br/>
 engineered to teach you only<br/>
 what the industry demands.</h5>
@@ -35,15 +34,15 @@ what the industry demands.</h5>
 <h3 className="About7" >Experienced instructors<br/>
 and mentors</h3>
 <h5 className="About_para">
-Get company-specific interview
-preparation help, from the likes of
+Get company-specific interview<br/>
+preparation help, from the likes of<br/>
 Google, Swiggy, Microsoft.  
 </h5>
 </div>
 
 <div className="About3">
 <img src="https://analytics-vidhya.vercel.app/images/mockQuestion.jpg" alt="random-image" className="About-image"/>
-<h3 className="About7">Access 1000+
+<h3 className="About7">Access 1000+<br/>
 Mock Interviews</h3>
 <h5  className="About_para" >Courses taught only by people<br/>
 who have already aced it! 1000+<br/>
@@ -53,10 +52,12 @@ ech professionals to guide you.</h5>
 
 <div className="About4">
 <div className="About5">
-<h4 className="About8">Get started on your journey towards unlocking hundreds of
+<h4 className="About8">Get started on your journey towards<br/>
+   unlocking hundreds of<br/>
 job opportunities with Data Science Acedmy</h4>
-<button className="sign_in">Sign in</button>
+<button className="sign_in">Sign up</button>
 </div>
+
 <div className="About6">
 <img src="https://analytics-vidhya.vercel.app/images/placement.jpg" alt="random-image" className="About-image"/>  
 <h3 className="About7">Lifetime Placement

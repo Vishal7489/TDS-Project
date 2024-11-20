@@ -1,8 +1,6 @@
 import React from 'react'
 import "../Styles/Navbar.css"
-import img1 from "../assests/image1.png"
 import { useNavigate } from 'react-router-dom';
-
 
 
 const Navbar = () => {
@@ -16,7 +14,7 @@ navigate('/LoginSection'); // This navigates to the About page
   return (
     <div className="Navbar_Main">
      <div className="Navbar">
-     <img src={img1} alt="random-image" className="Nav-image"/> 
+     <img src="https://analytics-vidhya.vercel.app/images/v920-kul-65.jpg" alt="random-image" className="Nav-image"/> 
      <div className="Navbar_button">
      <h1 className="Navbar_Heading">TDS Academy</h1>
      <div>

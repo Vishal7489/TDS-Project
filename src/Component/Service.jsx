@@ -22,7 +22,7 @@ return (
  <div className="Service">
  <div className="Service_Upper_Heading">
  <h1 className="Service10">Start your AI journey</h1>
- <h3>Quickstart with our highly rated courses in AI, ML and data science</h3>
+ <h3>Quickstart with our highly rated courses<br/> in AI, ML and data science</h3>
   </div>
 
     <div className="Service3">

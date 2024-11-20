@@ -26,6 +26,13 @@ position:relative;
 left:535px;
 bottom:10px;
 }
+@media(max-width:430px){
+  .Footer1{
+    position:relative;
+    left:80px;
+    bottom:15px;
+  }
+}
 .Footer2{
 background-color:black;
 height:50px;

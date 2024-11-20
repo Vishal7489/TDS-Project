@@ -18,16 +18,14 @@ right:5px;
  
 @media(max-width:490px){
 .SignUp{
-margin-left:5px;
-margin-bottom:100px;
-width:350px;
+width:390px;
 margin:0;
 padding:0;
 }
 .SignUp_Main{
 position:relative;
 bottom:130px;
-left:15px;
+left:22px;
 width:330px;
 }
 }
