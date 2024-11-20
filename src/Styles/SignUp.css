@@ -5,15 +5,9 @@ background-color:#fff;
 border-radius:10px;
 position:relative;
 top:60px;
-right:50px;
+right:5px;
 }
-@media(max-width:490px){
- .SignUp{
- width:330px;
- margin:0;
- padding:0;
- margin-left:100px;
- }   
+ 
  @media(min-width:1070px){
    body{
    width:100%;
@@ -21,10 +15,20 @@ right:50px;
    }
 }
 
- }
-@media(min-width:490px){
+ 
+@media(max-width:490px){
 .SignUp{
-margin-left:50px;
+margin-left:5px;
+margin-bottom:100px;
+width:350px;
+margin:0;
+padding:0;
+}
+.SignUp_Main{
+position:relative;
+bottom:130px;
+left:15px;
+width:330px;
 }
 }
 

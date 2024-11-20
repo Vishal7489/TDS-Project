@@ -3,7 +3,7 @@ import "../Styles/SignUp.css"
 
 const SignUp = () => {
   return (
-    <div>
+    <div  className="SignUp_Main"   >
     <div className="SignUp">
     <h2 className="SignUp_Heading">Book Your Mentor Call Now</h2>
     <form>
@@ -18,8 +18,8 @@ const SignUp = () => {
     </form>
     <button className="submit">Submit</button>
     <h4 className="AccountCreation">
-      By creating an account I have read and agree to TDS Academy<br/>
-      <span id="term">Terms</span> and<span id="term"> Privacy Policy</span>
+    By creating an account I have read and agree to TDS Academy<br/>
+    <span id="term">Terms</span> and<span id="term"> Privacy Policy</span>
       </h4>
     </div>
 

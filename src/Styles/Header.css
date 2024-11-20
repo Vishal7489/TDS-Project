@@ -21,9 +21,14 @@ display:flex;
 @media(max-width:730px){
   .Header1{
   flex-wrap:wrap;
-  height:1400px;
+  height:1150px;
   }
-
+.Header2{
+position:relative;
+bottom:80px;
+right:17px;
+}
+.Sign
   body{
   margin:0;
   padding:0;

@@ -20,15 +20,23 @@ margin-bottom:0;
  .Navbar_Heading{
   width:160px;
  }
- .Button{
-  margin-left:30%;
-  margin-top:28%;
- }
  body {
   font-size: 14px;
 }
 
-
+}
+@media(max-width:435px){
+.Button{
+  margin-left:30%;
+  margin-top:70%;
+}
+.Button1{
+  margin-left:80%;
+  margin-bottom:90%;
+}
+.Navbar_button{
+display:block;
+}
 }
 
 
