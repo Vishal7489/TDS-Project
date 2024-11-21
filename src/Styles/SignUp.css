@@ -4,18 +4,16 @@ width:450px;
 background-color:#fff;
 border-radius:10px;
 position:relative;
-top:60px;
 right:5px;
 }
- 
-
-
- 
-@media(max-width:490px){
+@media(max-width:380px){
 .SignUp{
-width:390px;
-margin:0;
-padding:0;
+width:350px;
+position:relative;
+right:10px;
+height:420px;
+top:55px;
+}  
 }
 .SignUp_Main{
 position:relative;
@@ -23,16 +21,6 @@ bottom:130px;
 left:22px;
 width:330px;
 }
-}
-@media(max-width:380px){
-.SignUp{
-  width:345px;
-  position:relative;
-  right:10px;
-  height:550px;
-}
-}
-
 
 .SignUp_Heading{
 font-size:20px;
@@ -46,33 +34,59 @@ top:15px;
 }
 @media(max-width:380px){
 .SignUp_Heading{
-font-size:20px;
+font-size:18px;
+font-weight:700;
 }
 }
+
 .E-mail{
 margin-left:20px;
 font-weight:500;
 font-size:18px;
 color:black;
 position:relative;
-top:10px;
 }
+@media(max-width:380px){
+.E-mail{
+  position:relative;
+  bottom:3px;
+  font-size:16px;
+}
+}
+
+
 .Graduation{
 margin-left:20px;
 font-weight:500;
 font-size:18px;
 color:black;
 position:relative;
-bottom:10px;
 }
+@media(max-width:380px){
+.Graduation{
+position:relative;
+bottom:25px;
+font-size:16px;
+right:2px;
+}
+}
+
 .Title{
 margin-left:20px;
 font-weight:500;
 font-size:18px;
 color:black;
 position:relative;
-bottom:20px;
 }
+@media(max-width:380px){
+  .Title{
+  position:relative;
+  bottom:43px;
+  font-size:16px;
+  right:2px;
+  }
+  }
+
 .Mobile{
 margin-left:20px;
 font-weight:500;
@@ -81,6 +95,17 @@ color:black;
 position:relative;
 bottom:25px;
 }
+@media(max-width:380px){
+  .Mobile{
+  position:relative;
+  bottom:60px;
+  font-size:16px;
+  right:2px;
+  }
+  }
+
+
+
 
 
 .input1{
@@ -92,6 +117,20 @@ border:none;
 outline:none;
 border-radius:7px;
 }
+@media(max-width:380px){
+.input1{
+height:25px;
+font-size:15px;
+position:relative;
+bottom:15px;
+right:2px;
+}
+}
+
+
+
+
+
 .input2{
     margin-left:20px;
     height:30px;
@@ -103,6 +142,21 @@ border-radius:7px;
     position:relative;
     bottom:15px;
     }
+    @media(max-width:380px){
+      .input2{
+      height:25px;
+      font-size:15px;
+      position:relative;
+      bottom:35px;
+      right:2px;
+      }
+      }
+
+
+
+
+
+
 .input3{
  margin-left:20px;
 height:30px;
@@ -114,6 +168,19 @@ border-radius:7px;
 position:relative;
 bottom:20px;
 }  
+@media(max-width:380px){
+  .input3{
+  height:25px;
+  font-size:15px;
+  position:relative;
+  bottom:53px;
+  right:2px;
+  }
+  }
+
+
+
+
 .input4{
 margin-left:20px;
 height:30px;
@@ -125,6 +192,16 @@ border-radius:7px;
 position:relative;
 bottom:30px;
 }
+
+@media(max-width:380px){
+  .input4{
+  height:25px;
+  font-size:15px;
+  position:relative;
+  bottom:70px;
+  right:2px;
+  }
+  }
 
 .submit{
 background-color:rgb(83, 78, 78);
@@ -138,6 +215,14 @@ margin-left:20px;
 position:relative;
 bottom:5px;
 }
+@media(max-width:380px){
+.submit{
+  position:relative;
+  bottom:60px;
+  right:5px;
+}
+}
+
 .AccountCreation{
 font-size:14px;
 font-weight:300;
@@ -145,6 +230,13 @@ color:#6e7786;
 margin-left:20px;
 }
 
+@media(max-width:380px){
+.AccountCreation{
+position:relative;
+bottom:65px;
+right:7px;
+}
+}
 
 #term{
 border-bottom:1px solid #0f3996;
@@ -157,5 +249,12 @@ color:#0f3996;
 @media(max-width:380px){
   #term{
   margin-left:5px;
+  font-size:13px;
+  }
+}
+@media(max-width:380px){
+  #term1{
+  margin-left:5px;
+  font-size:14px;
   }
 }
