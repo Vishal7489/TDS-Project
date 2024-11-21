@@ -6,6 +6,17 @@ border-radius:10px;
 position:relative;
 right:5px;
 }
+@media(max-width:430px){
+.SignUp{
+width:380px;
+right:5px;
+height:420px;
+top:40px;
+}
+}
+
+
+
 @media(max-width:380px){
 .SignUp{
 width:350px;
@@ -32,6 +43,12 @@ margin-bottom:34px;
 position:relative;
 top:15px;
 }
+@media(max-width:430px){
+.SignUp_Heading{
+font-size:18px;
+font-weight:700;
+}
+}
 @media(max-width:380px){
 .SignUp_Heading{
 font-size:18px;
@@ -46,6 +63,14 @@ font-size:18px;
 color:black;
 position:relative;
 }
+@media(max-width:430px){
+  .E-mail{
+    position:relative;
+    bottom:3px;
+    font-size:16px;
+  }
+}
+
 @media(max-width:380px){
 .E-mail{
   position:relative;
@@ -62,6 +87,15 @@ font-size:18px;
 color:black;
 position:relative;
 }
+@media(max-width:430px){
+.Graduation{
+position:relative;
+bottom:25px;
+font-size:16px;
+right:2px;
+}
+}
+
 @media(max-width:380px){
 .Graduation{
 position:relative;
@@ -78,6 +112,15 @@ font-size:18px;
 color:black;
 position:relative;
 }
+@media(max-width:430px){
+.Title{
+position:relative;
+bottom:43px;
+font-size:16px;
+right:2px;
+}
+}
+
 @media(max-width:380px){
   .Title{
   position:relative;
@@ -95,6 +138,15 @@ color:black;
 position:relative;
 bottom:25px;
 }
+@media(max-width:430px){
+.Mobile{
+position:relative;
+bottom:60px;
+font-size:16px;
+right:2px;
+}
+}
+
 @media(max-width:380px){
   .Mobile{
   position:relative;
@@ -103,9 +155,6 @@ bottom:25px;
   right:2px;
   }
   }
-
-
-
 
 
 .input1{
@@ -117,7 +166,7 @@ border:none;
 outline:none;
 border-radius:7px;
 }
-@media(max-width:380px){
+@media(max-width:430px){
 .input1{
 height:25px;
 font-size:15px;
@@ -128,37 +177,49 @@ right:2px;
 }
 
 
-
-
+@media(max-width:380px){
+.input1{
+height:25px;
+font-size:15px;
+position:relative;
+bottom:15px;
+right:2px;
+}
+}
 
 .input2{
-    margin-left:20px;
-    height:30px;
-    font-size:18px;
-    background-color:#faf4f4;
-    border:none;
-    outline:none;
-    border-radius:7px;
-    position:relative;
-    bottom:15px;
-    }
-    @media(max-width:380px){
-      .input2{
-      height:25px;
-      font-size:15px;
-      position:relative;
-      bottom:35px;
-      right:2px;
-      }
-      }
+margin-left:20px;
+height:30px;
+font-size:18px;
+background-color:#faf4f4;
+border:none;
+outline:none;
+border-radius:7px;
+position:relative;
+bottom:15px;
+}
+@media(max-width:430px){
+.input2{
+height:25px;
+font-size:15px;
+position:relative;
+bottom:35px;
+right:2px;
+}
+}
 
-
-
-
-
+@media(max-width:380px){
+.input2{
+height:25px;
+font-size:15px;
+position:relative;
+bottom:35px;
+right:2px;
+}
+}
 
 .input3{
- margin-left:20px;
+margin-left:20px;
 height:30px;
 font-size:18px;
 background-color:#faf4f4;
@@ -168,6 +229,17 @@ border-radius:7px;
 position:relative;
 bottom:20px;
 }  
+@media(max-width:430px){
+  .input3{
+    height:25px;
+    font-size:15px;
+    position:relative;
+    bottom:53px;
+    right:2px;
+    } 
+}
+
+
 @media(max-width:380px){
   .input3{
   height:25px;
@@ -192,6 +264,15 @@ border-radius:7px;
 position:relative;
 bottom:30px;
 }
+@media(max-width:430px){
+  .input4{
+    height:25px;
+    font-size:15px;
+    position:relative;
+    bottom:70px;
+    right:2px;
+    } 
+}
 
 @media(max-width:380px){
   .input4{
@@ -215,12 +296,23 @@ margin-left:20px;
 position:relative;
 bottom:5px;
 }
+@media(max-width:430px){
+  .submit{
+    position:relative;
+    bottom:60px;
+    right:5px;
+  }
+}
+
+
+
 @media(max-width:380px){
 .submit{
   position:relative;
   bottom:60px;
   right:5px;
 }
+
 }
 
 .AccountCreation{
@@ -229,6 +321,15 @@ font-weight:300;
 color:#6e7786;
 margin-left:20px;
 }
+@media(max-width:430px){
+.AccountCreation{
+position:relative;
+bottom:65px;
+right:7px;
+}
+}
+
+
 
 @media(max-width:380px){
 .AccountCreation{
