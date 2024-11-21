@@ -14,19 +14,19 @@ margin-bottom:0;
 position:sticky;
 top:0;
 width:100%;
-}
-.Header1{
 display:flex;
 }
-
+@media(max-width:380px){
+.Header1{
+height:1110px;
+}
+}
 
 
 
 @media(max-width:730px){
   .Header1{
   flex-wrap:wrap;
-  height:1200px;
-  border:2px solid black;
   }
 .Header2{
 position:relative;
@@ -71,6 +71,21 @@ left:10px;
     bottom:100px;
   }
 }
+@media(max-width:380px){
+.Header3{
+font-size:29px;
+font-weight:700;
+position:relative;
+width:280px;
+margin-left:10px;
+}
+}
+
+
+
+
+
+
 
 .Header4{
 color:#fff;
@@ -86,8 +101,12 @@ font-weight:500;
   margin-left:10px;
 }
 }
-
-
+@media(max-width:380px){
+.Header4{
+ font-size:18px;
+ font-weight:600;
+}
+}
 
 body{
 background-color:white;

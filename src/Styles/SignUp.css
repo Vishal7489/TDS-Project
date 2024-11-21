@@ -8,12 +8,7 @@ top:60px;
 right:5px;
 }
  
- @media(min-width:1070px){
-   body{
-   width:100%;
-   overflow-x:hidden;
-   }
-}
+
 
  
 @media(max-width:490px){
@@ -29,6 +24,14 @@ left:22px;
 width:330px;
 }
 }
+@media(max-width:380px){
+.SignUp{
+  width:345px;
+  position:relative;
+  right:10px;
+  height:550px;
+}
+}
 
 
 .SignUp_Heading{
@@ -40,6 +43,11 @@ padding-top:14px;
 margin-bottom:34px;
 position:relative;
 top:15px;
+}
+@media(max-width:380px){
+.SignUp_Heading{
+font-size:20px;
+}
 }
 .E-mail{
 margin-left:20px;
@@ -136,7 +144,18 @@ font-weight:300;
 color:#6e7786;
 margin-left:20px;
 }
+
+
 #term{
 border-bottom:1px solid #0f3996;
 color:#0f3996;
+}
+#term1{
+border-bottom:1px solid #0f3996;
+color:#0f3996;
+}
+@media(max-width:380px){
+  #term{
+  margin-left:5px;
+  }
 }
