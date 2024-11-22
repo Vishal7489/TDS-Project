@@ -40,6 +40,12 @@ width:55px;
 border-radius:60px;
 margin-right:11px;
 }
+@media(max-width:428px){
+.Footer2{
+position:relative;
+right:15px;
+}
+}
 
 
 
@@ -56,10 +62,10 @@ font-size:24px;
 font-weight:600px;
 color:white;
 }
-@media(min-width:380px){
+@media(max-width:428px){
 .Footer_Heading{
 font-size:22px;
-margin-left:30px;
+margin-right:25px;
 }
 }
 .Footer_img{
