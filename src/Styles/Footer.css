@@ -40,6 +40,12 @@ width:55px;
 border-radius:60px;
 margin-right:11px;
 }
+
+
+
+
+
+
 .Footer3{
 text-align:center;
 }
@@ -49,6 +55,11 @@ margin-top:0;
 font-size:24px;
 font-weight:600px;
 color:white;
+}
+@media(max-width:430px){
+.Footer_Heading{
+font-size:22px;
+}
 }
 .Footer_img{
 font-size:33px;
