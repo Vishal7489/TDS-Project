@@ -46,9 +46,9 @@ background-color:#272626;
 }
 @media(max-width:430px){
 .About3{
-width:370px;
+width:365px;
 position:relative;
-right:75px;
+right:80px;
 }
 }
 
@@ -152,7 +152,7 @@ background-color:#272626;
   .About6{
   width:375px;
   position:relative;
-  right:94px;
+  right:100px;
   height:210px;
   top:3px;
   bottom:20px;
@@ -177,7 +177,7 @@ background-color:#272626;
   .About10{
       width:375px;
       position:relative;
-      right:94px;
+      right:100px;
       height:210px;
       top:20px;
     
