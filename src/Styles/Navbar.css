@@ -4,6 +4,11 @@ position:relative;
 left:8px; 
 top:10px;
 }
+@media(max-width:430px){
+ .Nav-image{
+  margin-left:3px;
+ } 
+}
 .Navbar{
 display:flex;
 background-color:#090821;
@@ -42,10 +47,9 @@ top:7px;
 @media(max-width:430px){
 .Navbar_Heading{
 color:#fff;
-font-size:22px;
+font-size:21px;
 font-weight:500;
-margin-left:3px;
-margin-bottom:20px;
+margin-bottom:18px;
 }
 }
 .Button{
