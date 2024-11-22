@@ -10,34 +10,7 @@ background-color:#090821;
 height:60px;
 margin-bottom:0;
 }
-@media(max-width:310px){
-  .Navbar{
-   width:100%;
-  }
-}
 
-@media(max-width:380px){
- .Navbar_Heading{
-  width:160px;
- }
- body {
-  font-size: 14px;
-}
-
-}
-@media(max-width:435px){
-.Button{
-  margin-left:30%;
-  margin-top:70%;
-}
-.Button1{
-  margin-left:80%;
-  margin-bottom:90%;
-}
-.Navbar_button{
-display:block;
-}
-}
 
 
 
@@ -66,6 +39,15 @@ position:relative;
 left:13px;
 top:7px;
 }
+@media(max-width:430px){
+.Navbar_Heading{
+color:#fff;
+font-size:22px;
+font-weight:500;
+margin-left:3px;
+margin-bottom:20px;
+}
+}
 .Button{
   background-color:#06f; 
   height:3rem;
@@ -78,7 +60,15 @@ top:7px;
   top:5px;
   border:none;
   box-sizing:border-box;
-
+}
+@media(max-width:430px){
+.Button{
+width:70px;
+height:38px;
+position:relative;
+left:-20%;
+font-size:12px;
+}
 }
 .Button1{
     background-color:#06f; 
@@ -92,6 +82,16 @@ top:7px;
     top:5px;
     border:none;
   }
+  @media(max-width:430px){
+    .Button1{
+    width:70px;
+    height:38px;
+    position:relative;
+    left:-10%;
+    font-size:12px;
+    }
+  }
+
 
 html,body{
   width:100%;
