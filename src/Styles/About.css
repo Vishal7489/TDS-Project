@@ -7,6 +7,12 @@ margin-bottom:0;
 margin-top:0;
 }
 
+
+
+
+
+
+
 .About1{
 color:#fff;
 font-size:32px;
@@ -107,7 +113,7 @@ display:flex;
     flex-wrap:wrap;
   }
   .About{
-   height:1720px;
+   height:1660px;
    width:100vw;
   }
   
