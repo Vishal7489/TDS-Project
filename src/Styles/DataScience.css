@@ -2,14 +2,33 @@
 background-color:white;
 height:1430px;
 }
+@media(max-width:430px){
+.DataScience{
+height:3000px;
+}
+}
 .Python1{
 display:flex;
 background-color:#1d232a;
 padding-left:70px;
 }
+@media(max-width:430px){
+.Python1{
+flex-wrap:wrap;
+height:900px;
+}
+}
 .Python2{
 height:420px;
 width:550px;
+}
+@media(max-width:430px){
+.Python2{
+position:relative;
+right:60px;
+width:300px;
+
+}
 }
 .Python3{
 width:300px;
@@ -27,6 +46,8 @@ border-radius:15px;
 position:relative;
 top:15px;
 }
+
+
 .Python4{
 color:white;
 font-size:23px;
@@ -107,4 +128,5 @@ left:30px;
     position:relative;
     
 }
+
 
