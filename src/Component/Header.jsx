@@ -8,7 +8,7 @@ const Header = () => {
     <div className="Header">
     <div className="Header1">
     <div className="Header2">
-    <h1 className="Header3">AI PROFESSIONAL BY THE DATA<br/>
+    <h1 className="Header3">AI PROFESSIONAL BY THE DATA
      SCIENCE ACEDMY</h1>  
     <ul className="Header5">
     <li className="Header4">Comprehensive Curriculum: Learn from Basics to Advanced<br/>
