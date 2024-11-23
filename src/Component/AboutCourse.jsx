@@ -17,7 +17,7 @@ const AboutCourse = () => {
       <li className="Course_para">Wants to start their journey into business analytics or data science</li>
       </ul>
     </div>
-     <div>
+     <div >
      <h1 className="Course2">What do you need to get started with the <br/>
         Fundamental of Data Analytics</h1>
      </div>
@@ -34,7 +34,7 @@ const AboutCourse = () => {
      <div className="course_curriculam">
      <h1 className="curriculam">Course curriculum</h1>
      <h2 className="curriculam_Heading">Data Analytics</h2>
-     <div>
+     <div className="curriculam_module">
       <h2 className="curriculam_para1">1     Module 1 Basics of Data Analytics</h2>
       <h2 className="curriculam_para2">2   Module 2 Packages and Libraries</h2>
       <h2 className="curriculam_para3">3   Module 3 SQL</h2>
