@@ -84,7 +84,7 @@ width:320px;
 letter-spacing:0.8px;
 margin-left:35px;
 position:relative;
-bottom:30px;
+top:20px;
 color:#ffffff;
 height:130px;
 }
@@ -114,6 +114,7 @@ font-weight:500;
  right:5px;
  width:330px;
 color:#ffffff;
+margin-bottom:15px;
 }
 @media(max-width:380px){
 .Header4{
