@@ -9,12 +9,10 @@ width:200px;
 }
 }
 .AboutCourse{
-border:2px solid red;
 }
 @media(max-width:430px){
 .AboutCourse{
-height:1887px;
-border:2px solid green;
+height:1900px;
 }
 }
 .Course_para{

@@ -5,20 +5,14 @@ margin-top:0;
 margin-bottom:0;
 height:110px;
 }
-
-@media(max-width:700px){
-    .Footer{
-      height:100%;
-      width:100%;
-    }
-    .Footer1{
-    flex-wrap:wrap;
-    }
-    body{
-    height:100%;
-    width:100%;
-    }
+@media(max-width:430px){
+.Footer{
+position:relative;
+top:90px;
 }
+}
+
+
 
 .Footer1{
 display:flex;
