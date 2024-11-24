@@ -27,7 +27,7 @@ return (
     <div>
      <label className="PaymentFirst">First Name <span className="star">*</span> </label>
      <br/>
-     <input type="text" required placeholder=""    className="PaymentDetails3"    />   
+     <input type="text" required placeholder=""  className="PaymentDetails3"    />   
      </div>
      <div>
      <label className="PaymentLast">Last Name <span className="star">*</span> </label>

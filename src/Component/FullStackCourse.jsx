@@ -2,9 +2,10 @@ import React,{useEffect} from 'react'
 import AboutFullStack from "./AboutFullStack.jsx"
 import { useNavigate } from 'react-router-dom';
 
-const FullStackCourse = () => {
 
-  useEffect(() => {
+
+const FullStackCourse = () => {
+useEffect(() => {
     // Scroll to the middle of the page when it loads
     const scrollableDiv = document.documentElement || document.body;
     scrollableDiv.scrollTop = scrollableDiv.scrollHeight / 2.46; // Scroll to the middle
@@ -15,7 +16,6 @@ const FullStackCourse = () => {
   const handleButton4Click = () => {
   navigate('/PaymentSection'); // This navigates to the About page
   };
-
 
 
 
@@ -40,13 +40,9 @@ return (
 </div>
 </div>
 
-
-
 <div>
 <AboutFullStack/>
 </div>
-
-
 </div>
 
 
