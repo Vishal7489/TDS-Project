@@ -72,11 +72,7 @@
     bottom:25px;
     padding-left:30px;
     }
-    @media(max-width:430px){
-      .curriculam_para1{
-       
-      } 
-    }
+   
     
     .curriculam_para2{
     border:2px solid black;  
