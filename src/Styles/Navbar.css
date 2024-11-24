@@ -16,7 +16,9 @@ height:60px;
 margin-bottom:0;
 }
 
-
+body {
+  all: revert; /* Reverts to the browser's default styles */
+}
 
 
 .Navbar_Main{

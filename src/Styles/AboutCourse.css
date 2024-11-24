@@ -12,7 +12,8 @@ width:200px;
 }
 @media(max-width:430px){
 .AboutCourse{
-height:1900px;
+height:1670px;
+border:2px solid red;
 }
 }
 .Course_para{
