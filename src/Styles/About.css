@@ -41,21 +41,21 @@ bottom:20px;
 border: 2px solid hsl(0, 0%, 40%);
 color:white;
 height:208px;
-width:100%;
 margin:11px;
 border-radius:20px;
 background-color:#272626;
-width: auto; /* Use auto or another unit if dynamic size is needed */
-max-width: 100%;
+width:245px;
 }
 @media(max-width:430px){
-.About3{
-border:2px solid red;
-position:relative;
-right:70px;
-max-width:700px;
+ .About3{ 
+  width:700px;
+
 }
 }
+
+
+
+
 
 
 .About3:hover{
@@ -78,7 +78,6 @@ max-width:700px;
 display:flex;
 position:relative;
 top:60px;
-display:block;
 }
 @media(max-width:430px){
 .About2{
