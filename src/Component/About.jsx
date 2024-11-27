@@ -52,7 +52,7 @@ ech professionals to guide you.</h5>
 
 <div className="About4">
 <div className="About5">
-<h4 className="About8">Get started on your journey towards<br/>
+<h4 className="About8">Get started on your journey towards
    unlocking hundreds of<br/>
 job opportunities with Data Science Acedmy</h4>
 <button className="sign_in">Sign up</button>

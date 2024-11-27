@@ -1,30 +1,24 @@
 .SignUp{
-height:540px;  
+height:550px;  
 width:450px;
 background-color:#fff;
 border-radius:10px;
 position:relative;
-right:5px;
+left:12px;
+top:263px;
 }
 @media(max-width:430px){
 .SignUp{
-width:370px;
-right:5px;
-height:470px;
-top:40px;
-
-}
-}
-
-@media(max-width:380px){
-.SignUp{
-width:350px;
+width:375px;
+height:500px;
 position:relative;
-right:10px;
-height:420px;
-top:55px;
-}  
+top:130px;
+left:-12px;
+
+
 }
+}
+
 .SignUp_Main{
 position:relative;
 bottom:130px;
@@ -33,14 +27,17 @@ width:330px;
 }
 
 .SignUp_Heading{
-font-size:20px;
-font-weight:600;
+font-size:21px;
+font-weight:700;
 color:rgb(49 64 91);
 padding-left:19px;
 padding-top:14px;
 margin-bottom:34px;
 position:relative;
 top:15px;
+left:3px;
+margin-block-start:0;
+margin-block-end: 0;
 }
 @media(max-width:430px){
 .SignUp_Heading{
@@ -58,15 +55,21 @@ font-weight:700;
 .E-mail{
 margin-left:20px;
 font-weight:500;
-font-size:18px;
+font-size:20px;
 color:black;
 position:relative;
+margin-block-start:0;
+margin-block-end: 0;
+position:relative;
+top:47px;
+left:4px;
 }
 @media(max-width:430px){
   .E-mail{
     position:relative;
     bottom:3px;
     font-size:18px;
+
   }
 }
 
@@ -82,9 +85,13 @@ position:relative;
 .Graduation{
 margin-left:20px;
 font-weight:500;
-font-size:18px;
+font-size:20px;
 color:black;
 position:relative;
+top:65px;
+margin-block-start:0;
+margin-block-end: 0;
+left:4px;
 }
 @media(max-width:430px){
 .Graduation{
@@ -107,9 +114,13 @@ right:2px;
 .Title{
 margin-left:20px;
 font-weight:500;
-font-size:18px;
+font-size:20px;
 color:black;
 position:relative;
+top:85px;
+left:4px;
+margin-block-start:0;
+margin-block-end: 0;
 }
 @media(max-width:430px){
 .Title{
@@ -132,10 +143,12 @@ right:2px;
 .Mobile{
 margin-left:20px;
 font-weight:500;
-font-size:18px;
-color:black;
+font-size:20px;
 position:relative;
-bottom:25px;
+top:105px;
+left:5px;
+margin-block-start:0;
+margin-block-end: 0;
 }
 @media(max-width:430px){
 .Mobile{
@@ -146,24 +159,18 @@ right:2px;
 }
 }
 
-@media(max-width:380px){
-  .Mobile{
-  position:relative;
-  bottom:60px;
-  font-size:16px;
-  right:2px;
-  }
-  }
-
-
 .input1{
 margin-left:20px;
 height:30px;
-font-size:18px;
+font-size:17px;
 background-color:#faf4f4;
 border:none;
 outline:none;
 border-radius:7px;
+position:relative;
+top:57px;
+left:5px;
+color:rgb(235, 229, 229);
 }
 @media(max-width:430px){
 .input1{
@@ -189,13 +196,14 @@ right:2px;
 .input2{
 margin-left:20px;
 height:30px;
-font-size:18px;
+font-size:17px;
 background-color:#faf4f4;
 border:none;
 outline:none;
 border-radius:7px;
 position:relative;
-bottom:15px;
+top:75px;
+left:5px;
 }
 @media(max-width:430px){
 .input2{
@@ -220,13 +228,14 @@ right:2px;
 .input3{
 margin-left:20px;
 height:30px;
-font-size:18px;
+font-size:17px;
 background-color:#faf4f4;
-border:none;
 outline:none;
 border-radius:7px;
 position:relative;
-bottom:20px;
+top:95px;
+border:none;
+left:5px;
 }  
 @media(max-width:430px){
   .input3{
@@ -257,11 +266,12 @@ margin-left:20px;
 height:30px;
 font-size:17px;
 background-color:#faf4f4;
-border:none;
 outline:none;
 border-radius:7px;
 position:relative;
-bottom:30px;
+top:115px;
+left:5px;
+border:none;
 }
 @media(max-width:430px){
   .input4{
@@ -285,15 +295,16 @@ bottom:30px;
 
 .submit{
 background-color:rgb(83, 78, 78);
-height:37px;
-width:100px;
-border-radius:5px;
+height:38px;
+width:110px;
+border-radius:7px;
 color:white;
 border:none;
 font-weight:500;
-margin-left:20px;
 position:relative;
-bottom:5px;
+top:140px;
+left:24px;
+font-size:14px;
 }
 @media(max-width:430px){
   .submit{
@@ -315,10 +326,14 @@ bottom:5px;
 }
 
 .AccountCreation{
-font-size:14px;
+font-size:16px;
 font-weight:300;
-color:#6e7786;
-margin-left:20px;
+color:#92959c;
+margin-block-start:0;
+margin-block-end: 0;
+position:relative;
+top:170px;
+left:20px;
 }
 @media(max-width:430px){
 .AccountCreation{
@@ -327,7 +342,6 @@ bottom:65px;
 right:7px;
 }
 }
-
 
 
 @media(max-width:380px){
@@ -340,11 +354,11 @@ right:7px;
 
 #term{
 border-bottom:1px solid #0f3996;
-color:#0f3996;
+color:#5b89ec;
 }
 #term1{
 border-bottom:1px solid #0f3996;
-color:#0f3996;
+color:#5b89ec;
 }
 @media(max-width:380px){
   #term{

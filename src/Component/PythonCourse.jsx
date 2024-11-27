@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react'
 import "../Styles/PythonCourse.css"
-import AboutPython from "./AboutPython.jsx"
 import { useNavigate } from 'react-router-dom';
+import AboutPython from "./AboutPython.jsx"
 
 
 
@@ -20,9 +20,8 @@ useEffect(() => {
   navigate('/PaymentSection'); // This navigates to the About page
   };
 
-
-  return (
-<div className="Python">
+return (
+<div className="Python_">
 <div className="Python1">
 <div className="Python2">
 <h1 className="Python3"> Python for Data Science</h1>
@@ -40,15 +39,14 @@ useEffect(() => {
 <div className="Python5">
 <img src="https://analytics-vidhya.vercel.app/images/Python.jpg" alt="random-image" className="python-image"/>
 </div>
+
+
+
+
 </div>
-
-
-
 <div>
 <AboutPython/>
 </div>
-
-
 </div>
   )
 }

@@ -7,7 +7,6 @@ import { useNavigate } from 'react-router-dom';
 
 const DataScience = () => {
 
-
 const navigate = useNavigate();
 
 const handleButton4Click = () => {
@@ -18,16 +17,16 @@ return (
 <div className="DataScience">
 <div className="Python1">
 <div className="Python2">
-<h1 className="Python3">Data Analytics </h1>
-<p className="Python_4">✅ In depth High Quality Videos</p>
-<p className="Python4_1">✅ Project Based Learning</p>
-<p className="Python4_2">✅ Assignments/Projects</p>
-<p className="Python4_3">✅ Premium community of Engineers</p>
-<p className="Python4_4">✅ Course Certificate</p>
-<h2 id="course_price">
-₹<span id="course_actualprice">4500</span><span> + GST ₹ <span id="course_estimationprice">6000</span></span>
+<h1 className="Data_Heading">Data Analytics </h1>
+<p className="Data">✅ In depth High Quality Videos</p>
+<p className="Data1">✅ Project Based Learning</p>
+<p className="Data2">✅ Assignments/Projects</p>
+<p className="Data3">✅ Premium community of Engineers</p>
+<p className="Data4">✅ Course Certificate</p>
+<h2 id="Data_price">
+₹<span id="Data_actualprice">4500</span><span> + GST ₹ <span id="course_estimationprice">6000</span><span id="Slash">------</span>    </span>
 </h2>
-<button className="course_button" onClick={handleButton4Click}>Enroll Now</button>
+<button className="Data_Button"onClick={handleButton4Click} >Enroll Now</button>
 </div>
   
 <div className="Python5">
@@ -35,12 +34,14 @@ return (
 </div>
 </div>
 
+
+
 <div>
 <AboutCourse/>
 </div>
 
-
 </div>
+
   )
 }
 

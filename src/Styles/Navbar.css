@@ -1,12 +1,15 @@
 .Nav-image{
-height:36px;
+height:39px;
 position:relative;
 left:8px; 
 top:10px;
 }
 @media(max-width:430px){
  .Nav-image{
-  margin-left:3px;
+  height:30px;
+  position:relative;
+  top:15px;
+  right:30px;
  } 
 }
 .Navbar{
@@ -16,16 +19,20 @@ height:60px;
 margin-bottom:0;
 }
 
+
 body {
   all: revert; /* Reverts to the browser's default styles */
 }
-
-
 .Navbar_Main{
-  position:sticky;
-  top:0;
-  z-index:10;
+position:fixed;
+top:0;
+right:0;
+bottom:0;
+left:0;
 }
+
+
+
 
 body{
 overflow-x:hidden;
@@ -40,63 +47,64 @@ height:47px;
 }
 .Navbar_Heading{
 color:rgb(233, 223, 223);
-font-size:25px;
-font-weight:500;
+font-size:28px;
+font-weight:700;
 position:relative;
 left:13px;
 top:7px;
+margin-block-start:0;
+margin-block-end: 0;
 }
 @media(max-width:430px){
 .Navbar_Heading{
 color:#fff;
 font-size:21px;
 font-weight:500;
-margin-bottom:18px;
 }
 }
 .Button{
   background-color:#06f; 
-  height:3rem;
-  width:5rem;
+  height:40px;
+  width:77px;
   color:white;
-  border-radius:15px; 
-  font-size:15px;
-  position:relative;
-  right:57px;
-  top:5px;
+  border-radius:10px; 
   border:none;
   box-sizing:border-box;
+  position:relative;
+  right:60px;
+  top:5px;
+  font-size:14px;
 }
 @media(max-width:430px){
 .Button{
 width:70px;
-height:38px;
+height:35px;
 position:relative;
 left:-20%;
 font-size:14px;
 }
 }
 .Button1{
-    background-color:#06f; 
-    height:3rem;
-    width:5rem;
-    color:white;
-    border-radius:12px; 
-    font-size:15px;
-    position:relative;
-    right:42px;
-    top:5px;
-    border:none;
-  }
-  @media(max-width:430px){
-    .Button1{
-    width:70px;
-    height:38px;
-    position:relative;
-    left:-10%;
-    font-size:14px;
-    }
-  }
+background-color:#06f; 
+height:35px;
+width:70px;
+color:white;
+border-radius:10px; 
+font-size:14px;
+position:relative;
+right:42px;
+top:5px;
+border:none;
+}
+@media(max-width:430px){
+.Button1{
+width:70px;
+height:35px;
+position:relative;
+left:-10%;
+font-size:14px;
+}
+}
 
 
 html,body{

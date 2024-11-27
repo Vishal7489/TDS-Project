@@ -3,6 +3,8 @@ height:420px;
 color:black;
 background-color:#1d232a;
 padding-top:20px;
+position:sticky;
+top:30px;
 }
 @media(max-width:430px){
 .Payment{
@@ -98,11 +100,6 @@ right:145px;
 }
 }
 
-
-
-
-
-
   .PaymentFirst{
     color:rgb(172 173 177);
     font-size:20px;
@@ -151,11 +148,6 @@ right:105px;
 top:100px;
 }
 }
-
-
-
-
-
 .Apply_button{
 background-color:#36d399;
 height:44px;
@@ -183,11 +175,13 @@ display:flex;
 
 .Payment4{
 width:330px;
-height:310px;
+height:320px;
 color:rgb(172 173 177);
 border-radius:15px;
 background-color:#2a323c;
 border:none;
+position:relative;
+bottom:7px;
 }
 @media(max-width:430px){
 .Payment4{
@@ -204,7 +198,8 @@ top:280px;
 font-size:25px;
 text-align:center;
 position:relative;
-top:10px;
+top:12px;
+right:7px;
 color:#9eacbb;
 }
 @media(max-width:430px){
@@ -220,12 +215,38 @@ bottom:-8px;
 
 
 
-.Payment_Heading{
-font-size:20px;
+.Payment_Heading1{
+font-size:22px;
 position:relative;
+top:12px;
 left:10px;
 margin-bottom:10px;
 }
+.Payment_Heading2{
+font-size:22px;
+position:relative;
+left:10px;
+top:15px;
+margin-bottom:10px;
+}
+.Payment_Heading3{
+font-size:23px;
+position:relative;
+left:10px;
+top:19px;
+margin-bottom:10px;
+}
+.Payment_Heading4{
+font-size:23px;
+position:relative;
+left:10px;
+top:23px;
+margin-bottom:10px;
+}
+
+
+
+
 @media(max-width:430px){
 .Payment_Heading{
 position:relative;
@@ -236,8 +257,9 @@ bottom: 1px;
 }
 .Payment_Amount1{
 position:relative;
-left:80px;
-font-size:20px;
+left:70px;
+top:12px;
+font-size:25px;
 }
 @media(max-width:430px){
 .Payment_Amount1{
@@ -248,8 +270,9 @@ left:34px;
 }
 .Payment_Amount2{
 position:relative;
-left:61px;
-font-size:20px;
+left:50px;
+top:15px;
+font-size:25px;
 }
 @media(max-width:430px){
 .Payment_Amount2{
@@ -261,8 +284,9 @@ font-size:20px;
 
 .Payment_Amount3{
 position:relative;
-left:98px;
-font-size:20px;
+left:88px;
+font-size:25px;
+top:20px;
 }
 @media(max-width:430px){
   .Payment_Amount3{
@@ -274,8 +298,10 @@ font-size:20px;
 
 .Payment_Amount4{
 position:relative;
-left:100px;
-font-size:20px;
+font-size:27px;
+position:relative;
+top:22px;
+left:80px;
 }
 @media(max-width:430px){
   .Payment_Amount4{
@@ -293,7 +319,7 @@ color:white;
 border-radius:10px;
 border:none;
 position:relative;
-top:30px;
+top:50px;
 left:23px;
 }
 @media(max-width:430px){

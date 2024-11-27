@@ -22,9 +22,8 @@ return (
  <div className="Service">
  <div className="Service_Upper_Heading">
  <h1 className="Service10">Start your AI journey</h1>
- <h3>Quickstart with our highly rated courses<br/> in AI, ML and data science</h3>
-  </div>
-
+<h3 className="Service15">Quickstart with our highly rated courses in AI, ML and data science</h3>
+</div>
     <div className="Service3">
       <div className="Service4">
         <img src="https://analytics-vidhya.vercel.app/images/data_analytics.jpg" alt="random-image" className="image_Service"/>

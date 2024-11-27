@@ -1,21 +1,23 @@
 .About{
 background-color:black;
-height:620px;
+height:670px;
 padding-left:90px;
 padding-top:40px;
 margin-bottom:0;
 margin-top:0;
+position:sticky;
+top:0px;
 }
-
-
-
-
-
-
 
 .About1{
 color:#fff;
-font-size:32px;
+font-size:33px;
+font-weight:500;
+margin-block-start:0;
+margin-block-end: 0;
+position:relative;
+top:35px;
+
 }
 @media(max-width:430px){
 .About1{
@@ -44,7 +46,7 @@ bottom:20px;
 .About3{
 border: 2px solid hsl(0, 0%, 40%);
 color:white;
-height:200px;
+height:208px;
 width:247px;
 margin:11px;
 border-radius:20px;
@@ -52,7 +54,8 @@ background-color:#272626;
 }
 @media(max-width:430px){
 .About3{
-width:365px;
+width:120%;
+border:2px solid red;
 position:relative;
 right:80px;
 }
@@ -60,15 +63,6 @@ right:80px;
 
 
 
-
-@media(max-width:380px){
-.About3{
-width:325px;
-position:relative;
-right:80px;
-bottom:12px;
-}
-}
 
 
 
@@ -95,35 +89,14 @@ bottom:12px;
 }
 .About2{
 display:flex;
+position:relative;
+top:60px;
 }
-@media(max-width:700px){
-  .About2{
-    flex-wrap:wrap;
-  }
-  .About4{
-    flex-wrap:wrap;
-  }
-  .About3{
-   flex-wrap:wrap;
-  }
-  .About6{
-    flex-wrap:wrap;
-  }
-  .About10{
-    flex-wrap:wrap;
-  }
-  .About{
-   height:1660px;
-   width:100vw;
-  }
-  
-
-
-  }
-
-
-
-
+@media(max-width:430px){
+.About2{
+flex-wrap:wrap;
+}
+}
 
 
 .About-image{
@@ -137,6 +110,8 @@ display:flex;
 .About4{
 display:flex;
 color:white;
+position:relative;
+top:60px;
 }
 .About5{
 height:150px;
@@ -148,7 +123,7 @@ top:35px;
 }
 .About6{
 border: 2px solid hsl(0, 0%, 40%);
-height:200px;
+height:207px;
 width:247px;
 margin-left:26px;
 border-radius:20px;
@@ -171,7 +146,7 @@ background-color:#272626;
 
 .About10{
   border: 2px solid hsl(0, 0%, 40%);
-  height:200px;
+  height:207px;
   width:247px;
   margin-left:28px;
   border-radius:20px;
@@ -197,7 +172,13 @@ background-color:#272626;
 
 .About7{
 padding-left:17px;
-font-size:18px;
+font-size:20px;
+font-weight:500;
+margin-block-start:0;
+margin-block-end: 0;
+position:relative;
+left:6px;
+top:30px;
 }
 @media(max-width:430px){
   .About7{
@@ -213,17 +194,20 @@ font-size:18px;
 
 
 .About_para{
-padding-left:20px;
+padding-left:21px;
+font-weight:300;
 position:relative;
-bottom:10px;
-font-size:14px;
+font-size:16px;
+top:40px;
+margin-block-start:0;
+margin-block-end: 0;
 }
 .sign_in{
     background-color:#06f; 
     height:43px;
     width:82px;
     color:white;
-    border-radius:15px; 
+    border-radius:12px; 
     font-size:15px;
     border:none;  
 }
@@ -240,7 +224,8 @@ font-size:14px;
 
 
 .About8{
-font-size:17px;
+font-size:19px;
+font-weight:500;
 }
 @media(max-width:430px){
 .About8{

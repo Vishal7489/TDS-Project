@@ -83,22 +83,22 @@ return (
    </div>
 
   <div className="Course_Amount"    >
-  <div className="Payment_Heading">Course Amount</div>
+  <div className="Payment_Heading1">Course Amount</div>
   <div><span className="Payment_Amount1">8000</span></div>
    </div>
 
   <div className="Course_Amount">
-  <div className="Payment_Heading"  >Platform Discount</div>
+  <div className="Payment_Heading2"  >Platform Discount</div>
   <div><span className="Payment_Amount2"  >2500</span></div>
   </div>
 
   <div className="Course_Amount" >
-  <div className="Payment_Heading" >Coupon Discount</div>
+  <div className="Payment_Heading3" >Coupon Discount</div>
   <div><span className="Payment_Amount3">0</span></div>
   </div>
  
-  <div className="Course_Amount"  >
-  <div className="Payment_Heading"   >Total Amount</div>
+  <div className="Course_Amount">
+  <div className="Payment_Heading4">Total Amount</div>
   <div><span className="Payment_Amount4">5500</span></div>
   </div>
 

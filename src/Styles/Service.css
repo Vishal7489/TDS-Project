@@ -1,31 +1,35 @@
 .Service{
 background-color:black;
 color:white;
-height:670px;
-margin-bottom:0;
-margin-top: 0;
-padding-top: 0;
-padding:0;
+height:680px;
+position:sticky;
+top:20px;
 }
-
+@media(max-width:430px){
+.Service{
+height:1900px;
+}
+}
 
 .Service10{
 margin-top:0;
 margin-bottom:0;
+margin-block-start:0;
+margin-block-end: 0;
 }
 .Service3{
 display:flex;
 position:relative;
 left:45px;
+top:38px;
 }
-@media(max-width:700px){
+@media(max-width:430px){
 .Service3{
   flex-wrap:wrap;
+  margin:0;
+  padding:0;
 }
-.Service{
-height:100%;
-width:100%;
-}
+
 }
 .Service4{
 border:2px solid white;
@@ -55,18 +59,20 @@ margin-left:3px;
 .Service5{
 border:2px solid black;
 font-weight:500;
-font-size:14px;
+font-size:15px;
 height:25px;
 border-radius:10px;
 width:60px;
 background-color:#403f3f;
 margin:3px;
 color:#ffff;
-padding-left:10px;
-padding-top:3px;
+padding-left:13px;
+padding-top:7px;
 position:relative;
-bottom:33px;
+top:60px;
 left:5px;
+margin-block-start:0;
+margin-block-end: 0;
 }
 
 .Service8{
@@ -77,30 +83,41 @@ position:relative;
 bottom:30px;
 height:26px;
 border-radius:10px;
-width:130px;
+width:120px;
 color:#fff;
 background-color:#403f3f;
 position:relative;
-bottom:50px;
+top:60px;
 left:12px;
-padding-left:8px;
-padding-top:6px;
-    }
+padding-left:15px;
+padding-top:9px;
+margin-block-start:0;
+margin-block-end: 0;
+}
 .Service_Heading{
 color:#d1cece;
 padding-left:17px;
 position:relative;
-bottom:6px;
+top:22px;
 font-weight:700;
+margin-block-start:0;
+margin-block-end: 0;
+}
+@media(max-width:430px){
+.Service_Heading{
+gap:0;
+}
 }
 .Service_para{
 color:#d1cece;
 position:relative;
 left:15px;
 width:330px;
-font-size:14px;
-bottom:20px;
+font-size:15px;
+top:40px;
 font-weight:700;
+margin-block-start:0;
+margin-block-end: 0;
 }
 .Service6{
 display:flex;
@@ -114,9 +131,20 @@ border:2px solid black;
 border-radius:10px;
 font-size:17px;
 position:relative;
-bottom:30px;
+top:110px;
 left:8px;
 }
 .Service_Upper_Heading{
 text-align:center;
+margin-block-start:0;
+margin-block-end: 0;
+}
+h3{
+  margin-block-start:0;
+margin-block-end: 0;
+}
+.Service15{
+font-size:21px;
+position:relative;
+top:18px;
 }

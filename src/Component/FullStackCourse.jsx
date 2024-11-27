@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react'
 import AboutFullStack from "./AboutFullStack.jsx"
 import { useNavigate } from 'react-router-dom';
+import "../Styles/FullStackCourse.css"
 
 
 
