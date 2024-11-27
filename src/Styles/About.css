@@ -8,6 +8,12 @@ margin-top:0;
 position:sticky;
 top:0px;
 }
+@media(max-width:430px){
+.About{
+border:2px solid red;
+height:1200px;
+}
+}
 
 .About1{
 color:#fff;
@@ -31,44 +37,25 @@ bottom:20px;
 
 
 
-
-
-@media(max-width:380px){
-  .About1{
-  position:relative;
-  right:63px;
-  font-size:22px;
-  width:380px;
-  bottom:20px;
-  }
-}
-
 .About3{
 border: 2px solid hsl(0, 0%, 40%);
 color:white;
 height:208px;
-width:247px;
+width:100%;
 margin:11px;
 border-radius:20px;
 background-color:#272626;
+width: auto; /* Use auto or another unit if dynamic size is needed */
+max-width: 100%;
 }
 @media(max-width:430px){
 .About3{
-width:120%;
 border:2px solid red;
 position:relative;
-right:80px;
+right:70px;
+max-width:700px;
 }
 }
-
-
-
-
-
-
-
-
-
 
 
 .About3:hover{
@@ -91,6 +78,7 @@ right:80px;
 display:flex;
 position:relative;
 top:60px;
+display:block;
 }
 @media(max-width:430px){
 .About2{
@@ -141,9 +129,6 @@ background-color:#272626;
 }
 
 
-
-
-
 .About10{
   border: 2px solid hsl(0, 0%, 40%);
   height:207px;
@@ -166,10 +151,6 @@ background-color:#272626;
 }
 
 
-
-
-
-
 .About7{
 padding-left:17px;
 font-size:20px;
@@ -187,10 +168,6 @@ top:30px;
     top:6px;
   }
 }
-
-
-
-
 
 
 .About_para{
@@ -219,8 +196,6 @@ margin-block-end: 0;
   bottom:45px;
   }
 }
-
-
 
 
 .About8{
