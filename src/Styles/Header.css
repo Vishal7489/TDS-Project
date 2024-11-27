@@ -7,12 +7,6 @@ rgb(32, 32, 68) 65%,
  rgb(0, 0, 0)
 )
 }
-
-
-
-
-
-
 .Header1{
 height:700px;
 margin-bottom:0;
@@ -22,15 +16,6 @@ z-index:1000;
 position:sticky;
 top:20px;
 }
-@media(max-width:430px){
-  .Header1{
-  height:1100px;
-  flex-wrap:wrap;
-  }
-  }
-
-
-
 .Header2{
 width:720px;
 margin-right:10px;
@@ -39,43 +24,16 @@ margin-block-end: 0;
 padding-top:125px;
 padding-left:40px;
 }
-
-  @media(max-width:430px){
-  .Header2{
-  position:relative;
-  bottom:100px;
-  }
-  }
-
 .Header3{
 font-size:36px;
 color:#ffffffff;
 font-weight:700;
 margin-top:120px;
-position:relative;
-left:10px;
 margin-block-start:0;
 margin-block-end: 0;
-width:600px;
-top:68px;
+width:500px;
 letter-spacing:0.8px;
 }
-@media(max-width:430px){
-.Header3{
-font-size:30px;
-font-weight:700;
-width:320px;
-letter-spacing:0.8px;
-margin-left:35px;
-position:relative;
-top:100px;
-left:-30px;
-color:#ffffff;
-height:130px;
-}
-}
-
-
 .Header4{
 color:#fff;
 font-size:21px;
@@ -84,20 +42,6 @@ top:69px;
 margin-left:2px;
 font-weight:500;
 margin-bottom:11px;
-
-}
-
-
-@media(max-width:430px){
-.Header4{
- font-size:19px;
- font-weight:500;
- position:relative;
- right:5px;
- width:330px;
-color:#fff;
-margin-bottom:15px;
-}
 }
 .Header5{
 position:relative;
@@ -109,11 +53,11 @@ padding-inline-start:0;
 width:730px;
 }
 @media(max-width:430px){
-.Header5{
-position:relative;
-top:25px;
+.Header3{
+width:auto;
 }
 }
+
 
 
 

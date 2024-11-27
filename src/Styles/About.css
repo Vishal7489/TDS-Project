@@ -5,8 +5,6 @@ padding-left:90px;
 padding-top:40px;
 margin-bottom:0;
 margin-top:0;
-position:sticky;
-top:0px;
 }
 @media(max-width:430px){
 .About{
@@ -47,9 +45,10 @@ background-color:#272626;
 width:245px;
 }
 @media(max-width:430px){
- .About3{ 
-  width:700px;
-
+.About3{
+width:100%;
+position:relative;
+right:50px;
 }
 }
 
