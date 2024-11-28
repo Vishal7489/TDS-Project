@@ -21,7 +21,7 @@ what the industry demands.
 </h5>
 </div>  
 
- <div className="About3">
+ <div className="About3_1">
  <img src="https://analytics-vidhya.vercel.app/images/interview.jpg"   alt="random-image" className="About-image"/>
  <h3 className="About7">Ace Your Interview<br/>Preparation</h3>   
 <h5 className="About_para" >An updated curriculum<br/>

@@ -10,11 +10,9 @@ rgb(32, 32, 68) 65%,
 .Header1{
 height:700px;
 margin-bottom:0;
-width:1200px;
+width:100%;
 display:flex;
-z-index:1000;
-position:sticky;
-top:20px;
+border:2px solid red;
 }
 
 .Header2{
@@ -52,7 +50,25 @@ width:730px;
 }
 @media(max-width:430px){
 .Header3{
-width:700px;
+width:350px;
+font-size:33px;
+font-weight:600;
+position:relative;
+bottom:105px;
+left:6px;
+}
+.Header1{
+flex-wrap:wrap;
+height:2000px;
+height:auto;
+display:block;
+}
+.Header4{
+position:relative;
+bottom:95px;
+right:5px;
+font-size:21px;
+width:340px;
 }
 }
 

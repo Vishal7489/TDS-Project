@@ -54,8 +54,9 @@ margin-block-end: 0;
 @media(max-width:430px){
 .Navbar_Heading{
 color:#fff;
-font-size:21px;
-font-weight:500;
+font-size:22px;
+font-weight:600;
+color:rgb(187, 182, 182);
 }
 }
 .Button{
