@@ -6,7 +6,7 @@ const SignUp = () => {
   <div  className="SignUp_Main"   >
   <div className="SignUp">
   <h2 className="SignUp_Heading">Book Your Mentor Call Now</h2>
-  <form>
+  <form className="form1">
   <p className="E-mail">Email ID*</p> 
   <input type="text" className="input1" name="input_email" required placeholder="Enter your email"/>   
      <p className="Graduation">Graduation Year*</p>
@@ -22,8 +22,6 @@ const SignUp = () => {
     <span id="term">Terms</span> and<span id="term1"> Privacy Policy</span>
       </h4>
     </div>
-
-
     </div>
   )
 }
