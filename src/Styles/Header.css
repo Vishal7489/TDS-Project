@@ -54,7 +54,7 @@ font-size:33px;
 font-weight:600;
 position:relative;
 bottom:105px;
-left:-10px;
+right:30px;
 }
 .Header1{
 flex-wrap:wrap;
