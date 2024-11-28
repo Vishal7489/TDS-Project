@@ -12,7 +12,6 @@ height:700px;
 margin-bottom:0;
 width:100%;
 display:flex;
-border:2px solid red;
 }
 
 .Header2{
@@ -30,7 +29,6 @@ letter-spacing:0.8px;
 position:relative;
 bottom:13px;
 left:8px;
-border:2px solid red;
 }
 .Header4{
 color:#fff;
