@@ -74,14 +74,24 @@ left:5px;
 margin-block-start:0;
 margin-block-end: 0;
 }
+@media(max-width:430px){
+.Service5{
+font-size:10px;
+width:37px;
+padding-left:auto;
+padding-right:3px;
+height:11px;
+padding-top:auto;
+padding-bottom:7px;
+position:relative;
+left:50px;
+}
+}
 
 .Service8{
 border:2px solid black;
 font-weight:500;
 font-size:14px;
-position:relative;
-bottom:30px;
-height:26px;
 border-radius:10px;
 width:120px;
 color:#fff;
@@ -94,6 +104,20 @@ padding-top:9px;
 margin-block-start:0;
 margin-block-end: 0;
 }
+@media(max-width:430px){
+.Service8{
+border:2px solid black;
+height:auto;
+padding-top:auto;
+padding-bottom:auto;
+font-size:10px;
+font-size:11px;
+padding-left:auto;
+width:100px;
+position:relative;
+left:55px;
+}
+}
 .Service_Heading{
 color:#d1cece;
 padding-left:17px;
@@ -105,7 +129,14 @@ margin-block-end: 0;
 }
 @media(max-width:430px){
 .Service_Heading{
-gap:0;
+font-size:18px;
+font-weight:700;
+width:190px;
+position:relative;
+left:40px;
+top:auto;
+top:20px;
+
 }
 }
 .Service_para{
@@ -118,6 +149,17 @@ top:40px;
 font-weight:700;
 margin-block-start:0;
 margin-block-end: 0;
+}
+@media(max-width:480px){
+.Service_para{
+font-size:11px;
+position:relative;
+left:auto;
+left:58px;
+width:300px;
+top:auto;
+top:35px;
+}
 }
 .Service6{
 display:flex;
@@ -133,6 +175,15 @@ font-size:17px;
 position:relative;
 top:110px;
 left:8px;
+}
+@media(max-width:430px){
+.Enroll{
+height:50px;
+width:320px;
+position:relative;
+left:auto;
+left:25px;
+}
 }
 .Service_Upper_Heading{
 text-align:center;
