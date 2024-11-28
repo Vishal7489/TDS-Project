@@ -25,11 +25,12 @@ padding-left:40px;
 font-size:36px;
 color:#ffffffff;
 font-weight:600;
-width:600px;
+width:500px;
 letter-spacing:0.8px;
 position:relative;
 bottom:13px;
 left:8px;
+border:2px solid red;
 }
 .Header4{
 color:#fff;
@@ -50,7 +51,7 @@ width:730px;
 }
 @media(max-width:430px){
 .Header3{
-width:350px;
+width:320px;
 font-size:33px;
 font-weight:600;
 position:relative;
