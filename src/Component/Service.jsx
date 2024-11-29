@@ -63,7 +63,7 @@ and making informed decisions.</h6>
  </div>
   <div className="Service4">
   <img src="https://analytics-vidhya.vercel.app/images/SQL.jpg" alt="random-image" className="image_Service"/>
-  <h2 className="Service_Heading">Basics of SQL</h2>
+  <h2 className="Service_Heading">Full Stack Development</h2>
   <h6 className="Service_para">Master the fundamentals of SQL with our<br/>
   comprehensive course designed to teach<br/>
   you database querying, management, and manipulation
