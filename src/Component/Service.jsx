@@ -58,6 +58,8 @@ and making informed decisions.</h6>
 <button className="Enroll"  onClick={handleButton2Click}  >Enroll Now</button> 
  </div>
 
+
+
  </div>
   <div className="Service4">
   <img src="https://analytics-vidhya.vercel.app/images/SQL.jpg" alt="random-image" className="image_Service"/>
@@ -67,9 +69,10 @@ and making informed decisions.</h6>
   you database querying, management, and manipulation
   </h6>
   <div className="Service6">
-  <h4 className="Service5">Mongodb</h4>
-  <h4 className="Service5">Express</h4>
-  <h4 className="Service8">React</h4>
+  <h4 className="Skill1">Mongodb</h4>
+  <h4 className="Skill">Express</h4>
+  <h4 className="Skill">React</h4>
+  <h4 className="Skill">Node-js</h4>
   </div>
   <div>
   <button className="Enroll"  onClick={handleButton3Click}  >Enroll Now</button> 
