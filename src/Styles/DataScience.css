@@ -111,6 +111,11 @@ font-weight:400;
 margin-block-start:0;
 margin-block-end:0;
  }  
+@media(max-width:430px){
+.Data3{
+width:320px;
+}
+}
 .Data4{
  color:white;
  font-size:23px;
@@ -159,6 +164,14 @@ border:none;
 color:black;
 font-weight:300;
 top:134px;
+}
+@media(max-width:430px){
+.Data_Button{
+    width:310px;
+    position:relative;
+    left:auto;
+    left:30px;
+}
 }
 #Slash{   
 position:relative;

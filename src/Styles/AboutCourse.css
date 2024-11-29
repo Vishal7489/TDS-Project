@@ -7,10 +7,41 @@ margin-block-end: 0;
 position:relative;
 left:270px;
 }
+@media(max-width:430px){
+.AboutCourse_Heading{
+position:relative;
+left:0;
+left:90px;
+width:180px;
+font-size:37px;
+font-weight:500;
+}
+}
+
+
+
+
 
 .AboutCourse_para{
 font-size:19px;
 }
+@media(max-width:430px){
+.AboutCourse_para{
+position:relative;
+right:105px;
+width:200px;
+font-size:20px;
+}
+}
+
+
+
+
+
+
+
+
+
 .AboutCourse_para1{
 font-size:21px;
 margin-block-start:0;
@@ -18,12 +49,11 @@ margin-block-end:0;
 position:relative;
 top:10px;
 color:rgb(87, 84, 84);
-
 }
 @media(max-width:430px){
-.Course_para1{
-    width:200px;
-    margin-left:20px;
+.AboutCourse_para1{
+width:270px;
+color:rgb(5, 5, 5);
 }
 }
 
