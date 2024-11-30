@@ -5,13 +5,7 @@ height:120px;
 margin-top:0;
 margin-bottom:0;
 }
-@media(max-width:430px){
-.Footer{
-border:2px solid black;
-position:relative;
-top:900px;
-}
-}
+
 .Footer1{
 display:flex;
 position:relative;
