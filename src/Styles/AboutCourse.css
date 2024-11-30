@@ -137,18 +137,33 @@ right:35px;
 font-weight:500;
 font-size:20px;
 }
+@media(max-width:430px){
+.AboutCourse4{
+width:250px;
+position:relative;
+right:190px;
+color:rgb(5, 5, 5);
+}
+}
 .AboutCourse5{
 font-weight:400;
 font-size:20px;
 color:rgb(53, 45, 45);
 }
 @media(max-width:430px){
-.Course4{
+.AboutCourse5{
 position:relative;
-right:210px;
-width:200px;
+right:300px;
+width:230px;
+font-size:21px;
 }
 }
+
+
+
+
+
+
 .Course6{
 width:400px;
 position:relative;
@@ -171,9 +186,11 @@ margin-block-end:0;
 }
 @media(max-width:430px){
 .curriculam{
-width:280px;
+width:300px;
+padding-left:0px;
 position:relative;
-right:435px;
+left:60px;
+font-weight:500;
 }
 }
 
@@ -182,8 +199,8 @@ position:relative;
 top:190px;
 margin-block-start:0 ;
 margin-block-end:0;
-
 }
+
 .curriculamHeading{
 padding-left:550px;
 font-weight:700;
@@ -194,18 +211,20 @@ margin-block-start:0 ;
 margin-block-end:0;
 }
 @media(max-width:430px){
-.curriculam_Heading{
+.curriculamHeading{
+padding-left:0px;
+width:200px;
 position:relative;
-right:400px;
-width:300px;
-color:black;
-font-weight:600;
+left:100px;
+top:auto;
+top:3px;
+font-weight:500;
 }
 }
 
 
 .curriculam1{
-border:2px solid black;  
+border:2px solid rgb(2, 0, 0);
 font-size:18px;
 font-weight:600;
 height:30px;
@@ -218,7 +237,26 @@ top:15px;
 padding-left:30px;
 margin-block-start:0 ;
 margin-block-end:0;
+color:rgb(2, 0, 0);
 }
+@media(max-width:430px){
+.curriculam1{
+border:2px solid rgb(2, 0, 0);
+width:180px;
+height:45px;
+padding:4px 0px 3px 23px;
+position:relative;
+right:20px;
+color:rgb(2, 0, 0);
+}
+
+}
+
+
+
+
+
+
 @media(max-width:430px){
 .curriculam_module{
 position:relative;
@@ -231,7 +269,7 @@ right:220px;
 
 
 .curriculam2{
-border:2px solid black;  
+border:2px solid rgb(2, 0, 0);
 font-size:18px;
 font-weight:600;
 height:30px;
@@ -244,10 +282,28 @@ top:18px;
 padding-left:30px;
 margin-block-start:0 ;
 margin-block-end:0;
+color:rgb(2, 0, 0);
 }
+@media(max-width:430px){
+.curriculam2{
+    border:2px solid black;
+    width:180px;
+    height:45px;
+    text-align:center;
+    font-size:19px;
+    padding:4px 0px 3px 23px;
+    position:relative;
+    right:20px;
+    }    
+    }
+
+
+
+
+
 
 .curriculam3{
-border:2px solid black; 
+border:2px solid rgb(2, 0, 0);
 font-size:18px; 
 font-weight:600;
 height:30px;
@@ -260,7 +316,27 @@ top:22px;
 padding-left:30px;
 margin-block-start:0 ;
 margin-block-end:0;
+color:rgb(2, 0, 0);
 }
+@media(max-width:430px){
+.curriculam3{
+border:2px solid rgb(2, 0, 0);
+width:180px;
+height:28px;
+text-align:center;
+font-size:19px;
+padding:5px 15px 3px 6px;
+position:relative;
+right:20px;
+color:rgb(2, 0, 0);
+}    
+}
+
+
+
+
+
+
 
 .curriculam4{
 border:2px solid black;  
@@ -277,6 +353,19 @@ padding-left:30px;
 margin-block-start:0 ;
 margin-block-end:0;
 }
+@media(max-width:430px){
+.curriculam4{
+border:2px solid rgb(2, 0, 0);
+color:rgb(2, 0, 0);
+width:181px;
+height:28px;
+text-align:center;
+font-size:19px;
+padding:5px 0px 3px 21px;
+position:relative;
+right:20px;
+}    
+}
 
 .curriculam5{
 border:2px solid black;
@@ -292,4 +381,17 @@ left:310px;
 padding-left:30px;
 margin-block-start:0 ;
 margin-block-end:0;
+}
+@media(max-width:430px){
+.curriculam5{
+border:2px solid rgb(2, 0, 0);
+width:180px;
+height:45px;
+padding:4px 0px 3px 23px;
+position:relative;
+left:auto;
+left:290px;
+color:rgb(2, 0, 0);
+}
+        
 }

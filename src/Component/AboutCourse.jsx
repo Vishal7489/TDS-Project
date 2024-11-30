@@ -35,11 +35,11 @@ const AboutCourse = () => {
      <h1 className="curriculam">Course curriculum</h1>
      <h2 className="curriculamHeading">Data Analytics</h2>
      <div className="curriculam_module">
-      <h2 className="curriculam1">1   Module 1 Basics of Data Analytics</h2>
-      <h2 className="curriculam2">2   Module 2 Packages and Libraries</h2>
-      <h2 className="curriculam3">3   Module 3 SQL</h2>
-      <h2 className="curriculam4">4   Module 4 Power Bi</h2>
-      <h2 className="curriculam5">5   Module 5 Advance Microsoft Excel</h2>
+      <h2 className="curriculam1">1&nbsp;&nbsp;&nbsp;Module 1 Basics of Data Analytics</h2>
+      <h2 className="curriculam2">2&nbsp;&nbsp;&nbsp;Module 2 Packages and Libraries</h2>
+      <h2 className="curriculam3">3&nbsp;&nbsp;&nbsp;Module 3 SQL</h2>
+      <h2 className="curriculam4">4&nbsp;&nbsp;&nbsp;Module 4 Power Bi</h2>
+      <h2 className="curriculam5">5&nbsp;&nbsp;&nbsp;Module 5 Advance Microsoft Excel</h2>
      </div>
      </div>
 
