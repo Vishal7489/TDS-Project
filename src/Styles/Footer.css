@@ -20,6 +20,8 @@ bottom:15px;
 }
 .Footer{
 height:110px;
+position:relative;
+top:2000px;
 }
 }
 .Footer2{
