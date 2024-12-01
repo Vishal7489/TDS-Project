@@ -126,11 +126,11 @@ bottom:15px;
 }
 .AboutCourse{
 padding-top:50px;
-height:100%;
 }
 @media(max-width:430px){
 .AboutCourse{
 height:1695px;
+border:2px solid green;
 }
 }
 .AboutCourse3{

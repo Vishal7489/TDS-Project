@@ -4,7 +4,7 @@ width:450px;
 background-color:#fff;
 border-radius:10px;
 position:relative;
-left:12px;
+left:15px;
 top:183px;
 }
 @media(max-width:430px){
@@ -17,26 +17,22 @@ left:-14px;
 border:3px solid black;
 }
 }
-
 .SignUp_Main{
 position:relative;
 bottom:130px;
 left:22px;
 width:100%;
 }
-
-
 .SignUp_Heading{
-font-size:21px;
+font-size:20px;
 font-weight:600;
 color:rgb(49 64 91);
 padding-left:19px;
 padding-top:14px;
 position:relative;
-top:19px;
+top:15px;
 left:3px;
 margin-top:10px;
-margin-bottom:10px;
 }
 @media(max-width:430px){
 .SignUp_Heading{
@@ -54,13 +50,13 @@ font-weight:700;
 .E-mail{
 margin-left:20px;
 font-weight:500;
-font-size:20px;
-color:black;
+font-size:19px;
+color:rgb(92, 88, 88);
 position:relative;
 margin-block-start:0;
 margin-block-end: 0;
 position:relative;
-top:40px;
+top:22px;
 left:4px;
 }
 @media(max-width:430px){
@@ -84,10 +80,10 @@ left:4px;
 .Graduation{
 margin-left:20px;
 font-weight:500;
-font-size:20px;
-color:black;
+font-size:19px;
+color:rgb(92, 88, 88);
 position:relative;
-top:60px;
+top:38px;
 margin-block-start:0;
 margin-block-end: 0;
 left:4px;
@@ -105,7 +101,8 @@ right:2px;
 .Graduation{
 position:relative;
 bottom:25px;
-font-size:16px;
+font-size:20px;
+font-weight:500;
 right:2px;
 }
 }
@@ -113,10 +110,10 @@ right:2px;
 .Title{
 margin-left:20px;
 font-weight:500;
-font-size:20px;
-color:black;
+font-size:19px;
+color:rgb(92, 88, 88);
 position:relative;
-top:78px;
+top:50px;
 left:4px;
 margin-block-start:0;
 margin-block-end: 0;
@@ -142,10 +139,11 @@ right:2px;
 .Mobile{
 margin-left:20px;
 font-weight:500;
-font-size:20px;
+font-size:19px;
 position:relative;
-top:95px;
+top:65px;
 left:5px;
+color:rgb(92, 88, 88);
 margin-block-start:0;
 margin-block-end: 0;
 }
@@ -160,15 +158,16 @@ right:2px;
 
 .input1{
 margin-left:20px;
-height:30px;
+height:34px;
 font-size:17px;
 background-color:#faf4f4;
 border:none;
 outline:none;
 border-radius:7px;
 position:relative;
-top:50px;
-left:5px;
+top:30px;
+left:10px;
+width:400px;
 color:rgb(235, 229, 229);
 }
 @media(max-width:430px){
@@ -194,15 +193,16 @@ right:2px;
 
 .input2{
 margin-left:20px;
-height:30px;
+height:34px;
 font-size:17px;
 background-color:#faf4f4;
 border:none;
 outline:none;
 border-radius:7px;
 position:relative;
-top:68px;
+top:45px;
 left:5px;
+width:400px;
 }
 @media(max-width:430px){
 .input2{
@@ -226,15 +226,16 @@ right:2px;
 
 .input3{
 margin-left:20px;
-height:30px;
+height:34px;
 font-size:17px;
 background-color:#faf4f4;
 outline:none;
 border-radius:7px;
 position:relative;
-top:85px;
+top:57px;
 border:none;
 left:5px;
+width:400px;
 }  
 @media(max-width:430px){
   .input3{
@@ -262,15 +263,16 @@ left:5px;
 
 .input4{
 margin-left:20px;
-height:30px;
+height:34px;
 font-size:17px;
 background-color:#faf4f4;
 outline:none;
 border-radius:7px;
 position:relative;
-top:105px;
+top:78px;
 left:5px;
 border:none;
+width:400px;
 }
 @media(max-width:430px){
   .input4{
@@ -301,7 +303,7 @@ color:white;
 border:none;
 font-weight:500;
 position:relative;
-top:130px;
+top:100px;
 left:24px;
 font-size:14px;
 }
@@ -312,26 +314,21 @@ font-size:14px;
     right:5px;
   }
 }
-
-
-
 @media(max-width:380px){
 .submit{
   position:relative;
   bottom:60px;
   right:5px;
 }
-
 }
-
 .AccountCreation{
-font-size:16px;
+font-size:15px;
 font-weight:300;
 color:#92959c;
 margin-block-start:0;
 margin-block-end: 0;
 position:relative;
-top:170px;
+top:115px;
 left:20px;
 }
 @media(max-width:430px){
@@ -342,7 +339,6 @@ right:7px;
 }
 }
 
-
 @media(max-width:380px){
 .AccountCreation{
 position:relative;
@@ -350,14 +346,15 @@ bottom:65px;
 right:7px;
 }
 }
-
 #term{
 border-bottom:1px solid #0f3996;
-color:#5b89ec;
+color:#506380;
+font-size:14px;
 }
 #term1{
 border-bottom:1px solid #0f3996;
-color:#5b89ec;
+color:#607391;
+font-size:14px;
 }
 @media(max-width:380px){
   #term{

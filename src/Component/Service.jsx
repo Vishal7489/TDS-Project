@@ -1,6 +1,8 @@
 import React from 'react'
 import "../Styles/Service.css"
 import { useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
+
 
 const Service = () => {
 
@@ -38,7 +40,9 @@ and making informed decisions.</h6>
 <h4 className="Service8">Data Visualization</h4>
 </div>
 <div>
-<button className="Enroll"  onClick={handleButtonClick}  >Enroll Now</button> 
+<Link to="/DataScience">
+<button className="Enroll" >Enroll Now</button> 
+</Link>
 </div>
 </div>  
        
@@ -66,12 +70,12 @@ and making informed decisions.</h6>
   <h2 className="Service_Heading">Full Stack Development</h2>
   <h6 className="Service_para">Master the fundamentals of SQL with our<br/>
   comprehensive course designed to teach<br/>
-  you database querying, management, and manipulation
+  you database querying, management,<br/> and manipulation
   </h6>
   <div className="Service6">
   <h4 className="Skill1">Mongodb</h4>
   <h4 className="Skill">Express</h4>
-  <h4 className="Skill">React</h4>
+  <h4 className="Skill2">React</h4>
   <h4 className="Skill">Node-js</h4>
   </div>
   <div>

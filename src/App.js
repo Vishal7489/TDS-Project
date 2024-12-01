@@ -21,13 +21,15 @@ const App = () => {
     </Routes>
     <Header />
     <About />
-    <Routes>
+    <div>
+    <Routes  className="scrollable-content"   >
     <Route path="/" element={<Service />} />
     <Route path="/DataScience" element={<DataScience />} />
     <Route path="/PythonCourse" element={<PythonCourse />} />
     <Route path="/FullStackCourse" element={<FullStackCourse />} />
     <Route path="/PaymentSection" element={<PaymentSection />} />
     </Routes>
+    </div>
     <Footer />
     </>
   </Router>

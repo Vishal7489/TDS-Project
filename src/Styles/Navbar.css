@@ -1,8 +1,8 @@
 .Nav-image{
-height:39px;
-position:relative;
-left:8px; 
-top:10px;
+height:41px;
+margin-top:10px;
+margin-left:10px;
+
 }
 @media(max-width:430px){
  .Nav-image{
@@ -16,23 +16,22 @@ top:10px;
 display:flex;
 background-color:#090821;
 height:60px;
-margin-bottom:0;
-}
-
-
-body {
-  all: revert; /* Reverts to the browser's default styles */
 }
 .Navbar_Main{
-
+background-color:#090821;
+position:sticky;
+top:0;
 }
-
-
-
 
 body{
 overflow-x:hidden;
 }
+
+
+
+
+
+
 
 .Navbar_button{
 display:flex;
@@ -42,14 +41,14 @@ width:1500px;
 height:47px;
 }
 .Navbar_Heading{
-color:rgb(233, 223, 223);
-font-size:28px;
-font-weight:700;
-position:relative;
-left:13px;
-top:7px;
+font-size:29px;
+font-weight:400;
+color:rgb(192, 192, 192);
 margin-block-start:0;
 margin-block-end: 0;
+margin-top:10px;
+margin-left:7px;
+
 }
 @media(max-width:430px){
 .Navbar_Heading{
@@ -67,10 +66,9 @@ color:rgb(187, 182, 182);
   border-radius:10px; 
   border:none;
   box-sizing:border-box;
-  position:relative;
-  right:60px;
-  top:5px;
   font-size:14px;
+  margin-right:65px;
+  margin-top:10px;
 }
 @media(max-width:430px){
 .Button{
@@ -88,10 +86,10 @@ width:77px;
 color:white;
 border-radius:10px; 
 font-size:14px;
-position:relative;
-right:42px;
-top:5px;
 border:none;
+position:relative;
+right:45px;
+
 }
 @media(max-width:430px){
 .Button1{
@@ -103,11 +101,6 @@ font-size:14px;
 }
 }
 
-
-html,body{
-  width:100%;
-  overflow-x:hidden;
-}
 
 
 
