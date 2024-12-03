@@ -46,7 +46,7 @@ and making informed decisions.</h6>
 </div>
 </div>  
        
-<div className="Service4">
+<div className="ServicePython">
 <img src="https://analytics-vidhya.vercel.app/images/Python.jpg" alt="random-image" className="image_Service"/>
 <h2 className="Service_Heading">Python for Data Science</h2>
 <h6 className="Service_para">Unlock the power of data with our comprehensive<br/>
@@ -65,7 +65,7 @@ and making informed decisions.</h6>
 
 
  </div>
-  <div className="Service4">
+  <div className="ServiceFullStack">
   <img src="https://analytics-vidhya.vercel.app/images/SQL.jpg" alt="random-image" className="image_Service"/>
   <h2 className="Service_Heading">Full Stack Development</h2>
   <h6 className="Service_para">Master the fundamentals of SQL with our<br/>
@@ -76,7 +76,7 @@ and making informed decisions.</h6>
   <h4 className="Skill1">Mongodb</h4>
   <h4 className="Skill">Express</h4>
   <h4 className="Skill2">React</h4>
-  <h4 className="Skill">Node-js</h4>
+  <h4 className="Skill3">Node-js</h4>
   </div>
   <div>
   <button className="Enroll"  onClick={handleButton3Click}  >Enroll Now</button> 
