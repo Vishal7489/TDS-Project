@@ -35,7 +35,7 @@ what the industry demands.</h5>
 and mentors</h3>
 <h5 className="About_para">
 Get company-specific interview<br/>
-preparation help, from the likes of
+preparation help, from the likes of<br/>
 Google, Swiggy, Microsoft.  
 </h5>
 </div>
@@ -60,7 +60,7 @@ job opportunities with Data Science Acedmy</h4>
 
 <div className="About6">
 <img src="https://analytics-vidhya.vercel.app/images/placement.jpg" alt="random-image" className="About-image"/>  
-<h3 className="About7">Lifetime Placement
+<h3 className="About7">Lifetime Placement<br/>
 Assistance Guaranteed</h3>  
 <h5 className="About_para">Practice your skills with unlimited<br/>
 number of mock interviews you<br/>
