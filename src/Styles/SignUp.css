@@ -178,6 +178,7 @@ position:relative;
 bottom:15px;
 right:2px;
 width:300px;
+background-color:white;
 }
 }
 
@@ -213,6 +214,7 @@ position:relative;
 bottom:35px;
 right:2px;
 width:300px;
+background-color:white;
 }
 }
 
@@ -223,6 +225,7 @@ font-size:15px;
 position:relative;
 bottom:35px;
 right:2px;
+background-color:white;
 }
 }
 
@@ -247,6 +250,8 @@ width:400px;
     bottom:53px;
     right:2px;
     width:300px;
+    background-color:white;
+
     } 
 }
 
@@ -285,6 +290,7 @@ width:400px;
     bottom:70px;
     right:2px;
     width:300px;
+    background-color:white;
     } 
 }
 
