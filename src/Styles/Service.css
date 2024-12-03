@@ -57,13 +57,13 @@ border-radius:15px;
 margin-left:30px;
 }
 @media(max-width:430px){
-  .ServiceFullStack{
-  position:relative;
-  right:60px;
-  height:545px;
-  margin-bottom:20px;
-  }
-  }
+.ServiceFullStack{
+position:relative;
+right:60px;
+height:545px;
+margin-bottom:20px;
+}
+}
 
 
 
@@ -80,13 +80,13 @@ margin-bottom:20px;
 }
 }
 @media(max-width:430px){
-  .ServicePython{
-  position:relative;
-  right:60px;
-  height:545px;
-  margin-bottom:20px;
-  }
-  }
+.ServicePython{
+ position:relative;
+ right:60px;
+height:545px;
+margin-bottom:20px;
+}
+}
 
 
 
@@ -283,12 +283,11 @@ margin-block-end: 0;
 .Service_Heading{
 font-size:18px;
 font-weight:700;
-width:190px;
+width:210px;
 position:relative;
 left:40px;
 top:auto;
 top:20px;
-
 }
 }
 .Service_para{
