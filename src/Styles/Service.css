@@ -2,6 +2,7 @@
 background-color:black;
 color:white;
 height:680px;
+width:100%;
 }
 @media(max-width:430px){
 .Service{

@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Styles/Navbar.css"
 import { useNavigate } from 'react-router-dom';
+import img1 from "../assests/image1.png"
 
 
 const Navbar = () => {
@@ -12,18 +13,23 @@ navigate('/LoginSection'); // This navigates to the About page
 };
 
   return (
-    <div className="Navbar_Main">
-     <div className="Navbar">
-     <img src="https://analytics-vidhya.vercel.app/images/v920-kul-65.jpg" alt="random-image" className="Nav-image"/> 
-     <div className="Navbar_button">
-     <h1 className="Navbar_Heading">TDS Academy</h1>
-     <div>
+  <div className="Navbar_Main">
+  <div className="Navbar">
+  <div>
+  <img src={img1} alt="random-image" className="Nav-image"/> 
+  </div>
+  <div>
+  <h1 className="Navbar_Heading">TDS Academy</h1>
+  </div>
+  
+      <div className="NavbarButton">
       <button className="Button"  onClick={handleButton5Click} >Login</button>
       <button className="Button1">Sign-up</button>
-     </div>
-     </div>
-     </div>
-    </div>
+      </div>
+  </div>
+</div>
+
+
   )
 }
 

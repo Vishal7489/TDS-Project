@@ -7,28 +7,47 @@ import { IoLogoYoutube } from "react-icons/io";
 
 const Footer= () => {
   return (
-    <div className="Footer">
+  <div className="Footer">
+  <div>
+  <h2 className="Footer_Heading">Follow us on social media</h2>
+  </div>
 
-    <div className="Footer_Main">
-     <div className="Footer3">
-     <h2 className="Footer_Heading">Follow us on social media</h2>
-     </div >
-    <div className="Footer1">
-    <div  className="Footer2">
-    <FaSquareInstagram className="Footer_img"/>
-    </div>
-    <div className="Footer2">
-    <SiFacebook  className="Footer_img"/>
-    </div>
-    <div className="Footer2">
-    <FaLinkedin  className="Footer_img" />
-    </div>
-    <div className="Footer2">
-    <IoLogoYoutube  className="Footer_img"/>
-    </div>
-    </div>
+
+
+
+
+
+
+
+
+  <div className="Footer1">
+  <div className="Footer2">
+    <FaSquareInstagram  className="Footer_icons"/>
+  </div>
+  <div className="Footer2">
+    <SiFacebook className="Footer_icons"/>
+  </div>
+  <div  className="Footer2">
+    <FaLinkedin  className="Footer_icons"/>
+  </div>
+  <div  className="Footer2" >
+   <IoLogoYoutube className="Footer_icons"/>
+  </div>
+ 
+
+
+  </div>
+
+ <div className="Footer3">
+  <ul className="Footer_Point">
+  <li className="FooterPoints">About Us</li>
+  <li className="FooterPoints">Contact Us</li>
+  <li className="FooterPoints">Privacy Policy</li>
+  <li className="FooterPoints" >Refund Policy</li>
+  <li className="FooterPoints">Terms & condition</li>
+  </ul>
+</div>
    </div>
-    </div>
   )
 }
 
