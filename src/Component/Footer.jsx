@@ -11,15 +11,6 @@ const Footer= () => {
   <div>
   <h2 className="Footer_Heading">Follow us on social media</h2>
   </div>
-
-
-
-
-
-
-
-
-
   <div className="Footer1">
   <div className="Footer2">
     <FaSquareInstagram  className="Footer_icons"/>
