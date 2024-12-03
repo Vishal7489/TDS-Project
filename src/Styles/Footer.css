@@ -39,7 +39,12 @@ margin:5px;
 background-color:black;
 border-radius:29px;
 padding:8px 5px 4px 11px;
-
+}
+@media(max-width:430px){
+.Footer2{
+position:relative;
+right:460px;
+}
 }
 .Footer_Point{
 display:flex;
@@ -49,4 +54,13 @@ width:700px;
 position:relative;
 left:370px;
 bottom:10px;
+}
+@media(max-width:430px){
+.Footer3{
+position:relative;
+left:auto;
+right:30px;
+bottom:auto;
+bottom:10px;
+}
 }
