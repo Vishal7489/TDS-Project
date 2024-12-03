@@ -15,19 +15,20 @@ navigate('/LoginSection'); // This navigates to the About page
   return (
   <div className="Navbar_Main">
   <div className="Navbar">
-  <div>
+   <div className="NavbarHeading">
+   <div>
   <img src={img1} alt="random-image" className="Nav-image"/> 
   </div>
   <div>
   <h1 className="Navbar_Heading">TDS Academy</h1>
   </div>
-  
-      <div className="NavbarButton">
-      <button className="Button"  onClick={handleButton5Click} >Login</button>
-      <button className="Button1">Sign-up</button>
-      </div>
+   </div>
+   <div className="NavbarHeading1">
+   <button className="Button" onClick={handleButton5Click} >Login</button>
+   <button className="Button1">Sign-up</button>
+   </div>
   </div>
-</div>
+  </div>
 
 
   )
