@@ -7,6 +7,15 @@ rgb(32, 32, 68) 65%,
  rgb(0, 0, 0)
 )
 }
+.Header{
+z-index:1;
+}
+
+
+
+
+
+
 
 .Header1{
 height:700px;

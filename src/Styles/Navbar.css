@@ -10,6 +10,10 @@ height:32px;
 }
 }
 
+
+
+
+
 .Navbar_Main{
   background-color:#090821;
   height:60px;
@@ -63,17 +67,14 @@ right:30px;
 }
 }
 
-  
-
-
-
-
-
-
+html {
+  scroll-behavior: smooth;
+}
 
 .Navbar{
 display:flex;
 justify-content:space-between;
+z-index:1;
 }
 .Navbar1{
 display:flex;
