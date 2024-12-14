@@ -3,6 +3,7 @@ height:420px;
 color:black;
 background-color:#1d232a;
 padding-top:20px;
+overflow-y:hidden;
 }
 @media(max-width:430px){
 .Payment{

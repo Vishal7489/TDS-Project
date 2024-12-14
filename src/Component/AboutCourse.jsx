@@ -8,8 +8,8 @@ const AboutCourse = () => {
     <p className="AboutCourse_Heading">Who is the Data Analytics Fundamentals<br/> Course for?</p>
     </div>
     <div className="Course">
-      <p><h5 className="AboutCourse_para1" >This course is for anyone who:</h5></p>  
-      <ul className="AboutCourse_para_section">
+    <p><h5 className="AboutCourse_para1" >This course is for anyone who:</h5></p>  
+    <ul className="AboutCourse_para_section">
       <li className="AboutCourse_para">Wants to learn the fundamentals of data analytics</li>
       <li className="AboutCourse_para">Wants to develop or enhance their data analysis skills, from beginner to<br/>
          intermediate levels</li>
